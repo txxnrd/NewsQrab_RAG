@@ -8,9 +8,9 @@ from bs4 import BeautifulSoup
 from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
-
+from langchain.prompts import PromptTemplate
 from config import URLS
 
 app = FastAPI()
@@ -57,7 +57,7 @@ def startup_event():
     
     if os.path.exists(VECTORSTORE_PATH):
         print("===== 기존 벡터스토어 로드 중 =====")
-        vectorstore = FAISS.load_local(VECTORSTORE_PATH, embeddings)
+        vectorstore = FAISS.load_local(VECTORSTORE_PATH, embeddings, allow_dangerous_deserialization=True)
     else:
         print("===== 벡터스토어 새로 생성 중 =====")
         # 1. 문서 로딩
@@ -83,10 +83,31 @@ async def generate_summary(request: ArticleRequest):
     
     # RAG 체인 구성
     retriever = vectorstore.as_retriever()
+    
+    prompt = PromptTemplate(
+    input_variables=["context", "question"],
+    template=(
+        "당신은 뉴스 요약 전문가입니다.\n\n"
+        "▼ 아래 형식(세 줄)을 정확히 지켜서 **출력만** 하세요. "
+        "대괄호 <> 부분만 채우고 나머지 글자는 그대로 두세요.\n"
+        "요약: <한글 요약문만>\n"
+        "질문: {question}\n"
+        "답변: <답변을 여기에 작성>\n\n"
+        "------------------  문맥  ------------------\n"
+        "{context}\n"
+        "-------------------------------------------"
+    ),
+)
+
+    
+    
     qa_chain = RetrievalQA.from_chain_type(
         llm=ChatOpenAI(model_name="gpt-4o", temperature=0),
+        chain_type = "stuff",
         retriever=retriever,
         return_source_documents=True,
+        chain_type_kwargs={"prompt": prompt},
+
     )
 
     # 쿼리 수행
@@ -99,6 +120,8 @@ async def generate_summary(request: ArticleRequest):
         }
         for doc in result["source_documents"]
     ]
+    
+    print(answer)
 
     return {
         "summary": answer,
