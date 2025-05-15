@@ -176,10 +176,9 @@ async def generate_rag_script(req: RagRequest):
 
     llm = ChatOpenAI(model_name="gpt-4o", temperature=0.3)
     final_prompt = prompt.format(
-        context=context,
-        article=article_text,
-        script=original_script,
-    )
+    content=article_text,          # {content}
+    originalScript=original_script # {originalScript}
+)
     response = llm.invoke(final_prompt)
 
     # ----------------- 3) 응답 -----------------
