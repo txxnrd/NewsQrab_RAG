@@ -4,7 +4,7 @@ from urllib.parse import urljoin
 import urllib.parse
 
 # 타겟 URL
-url = "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%95%9C%EA%B5%AD%20%EB%AF%BC%EC%A3%BC%ED%99%94%EC%9A%B4%EB%8F%99"
+url = "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%AF%B8%EC%83%9D%EB%AC%BC%ED%95%99"
 
 # 웹페이지 요청
 response = requests.get(url)
