@@ -6,8 +6,11 @@ FastAPI RAG 서버 – 기사 전문 + 기존 대사(Q&A 스크립트)를 받아
 """
 
 import os
+import tempfile
 from typing import List
+from urllib.parse import urlparse
 
+import fitz  # PyMuPDF
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
@@ -19,8 +22,19 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from pydantic import BaseModel
-
 from config import URLS  # URL 목록만 담고 있는 모듈
+import textwrap
+import logging
+
+# ---------------------------------------------------------------------------
+# 로깅 설정 (모듈 상단 한 번만)
+# ---------------------------------------------------------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+)
+
+logger = logging.getLogger(__name__)
 
 load_dotenv()  # OPENAI_API_KEY 등 환경 변수 읽기
 
@@ -38,6 +52,66 @@ VECTORSTORE_PATH = "faiss_index"
 vectorstore: FAISS | None = None  # 전역 벡터스토어 객체
 
 
+def load_pdf_from_url(url: str) -> Document:
+    """PDF URL에서 텍스트를 추출하여 Document로 반환 (디버깅 로그 포함)"""
+    try:
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
+            tmp_file.write(response.content)
+            tmp_file_path = tmp_file.name
+
+        try:
+            doc = fitz.open(tmp_file_path)
+            text_content = ""
+            total_chars = 0
+
+            for page in doc:
+                raw_text = page.get_text().strip()
+                cleaned_text = raw_text  # 필요하면 clean_pdf_text(raw_text)
+
+                if cleaned_text:
+                    # ────────────────────────────────────────────────
+                    # 📌 ① 페이지별 길이·앞부분 미리보기 출력
+                    # ────────────────────────────────────────────────
+                    logger.info(
+                        "Page %-3d | %5d chars | Preview: %s",
+                        page.number + 1,
+                        len(cleaned_text),
+                        textwrap.shorten(cleaned_text, width=80, placeholder=" …"),
+                    )
+
+                    text_content += f"페이지 {page.number + 1}: {cleaned_text}\n\n"
+                    total_chars += len(cleaned_text)
+
+            
+
+            # ────────────────────────────────────────────────────────
+            # 📌 ② 전체 추출 결과 요약
+            # ────────────────────────────────────────────────────────
+            logger.info(
+                "Finished extracting PDF (%s) → total %d chars across %d pages",
+                url,
+                total_chars,
+                len(doc),
+            )
+            doc.close() 
+            # arXiv 논문이면 출처 주석 추가
+            if "arxiv.org" in url.lower():
+                text_content = f"arXiv 논문 출처: {url}\n\n" + text_content
+
+            return Document(page_content=text_content,
+                            metadata={"source": url, "type": "pdf"})
+
+        finally:
+            os.unlink(tmp_file_path)
+
+    except Exception as e:
+        logger.exception("[ERROR] PDF %s 로딩 실패: %s", url, e)
+        return Document(page_content="",
+                        metadata={"source": url, "type": "pdf"})
+
 def load_namu_page(url: str) -> Document:
     """나무위키 페이지 본문을 Document 로 로드"""
     try:
@@ -46,10 +120,25 @@ def load_namu_page(url: str) -> Document:
         soup = BeautifulSoup(response.text, "html.parser")
         content_div = soup.find("main") or soup
         content = content_div.get_text(separator="\n", strip=True)
-        return Document(page_content=content, metadata={"source": url})
+        return Document(page_content=content, metadata={"source": url, "type": "namu_wiki"})
     except Exception as e:
         print(f"[ERROR] {url} 로딩 실패: {e}")
-        return Document(page_content="", metadata={"source": url})
+        return Document(page_content="", metadata={"source": url, "type": "namu_wiki"})
+
+
+def load_document_from_url(url: str) -> Document:
+    """URL 타입에 따라 적절한 로더를 선택하여 Document 반환"""
+    parsed_url = urlparse(url)
+    
+    # PDF 파일인지 확인
+    if url.lower().endswith('.pdf') or 'arxiv.org/pdf/' in url.lower():
+        return load_pdf_from_url(url)
+    # 나무위키 페이지인지 확인
+    elif 'namu.wiki' in parsed_url.netloc:
+        return load_namu_page(url)
+    else:
+        # 기본적으로 웹 페이지로 처리
+        return load_namu_page(url)
 
 
 def chunk_documents(docs: List[Document], chunk_size: int = 1000):
@@ -91,7 +180,7 @@ def startup_event():
     else:
         print("===== 벡터스토어 새로 생성 중 =====")
         # 1) URL → HTML → Document
-        documents = [load_namu_page(url) for url in URLS]
+        documents = [load_document_from_url(url) for url in URLS]
         documents = [doc for doc in documents if doc.page_content.strip()]
         # 2) Document → 작은 조각
         splitter = RecursiveCharacterTextSplitter(
@@ -189,7 +278,7 @@ async def generate_rag_script(req: RagRequest):
         }
         for doc in docs
     ]
-
+    print(sources)
     return RagResponse(
         script=response.content.strip(),
         sources=sources,
