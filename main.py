@@ -238,7 +238,7 @@ async def generate_rag_script(req: RagRequest):
 
     # ----------------- 2) 프롬프트 -----------------
     prompt = PromptTemplate(
-    input_variables=["content", "originalScript"],
+    input_variables=["content", "originalScript","context"],
     template=(
         "아래 뉴스 기사 내용과 이전 대화 스크립트를 참고해서, "
         "두 캐릭터의 QnA 대사를 새로 생성해주세요.\n\n"
