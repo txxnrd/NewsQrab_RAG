@@ -254,3 +254,4 @@ with open("arxiv_top1000_links.txt", "w") as f:
         print(f'Added: "{pdf_url}", ({i}/{len(popular_arxiv_papers)})')
 
 print(f"Done! Saved {len(popular_arxiv_papers)} arXiv PDF links to arxiv_top1000_links.txt")
+ 

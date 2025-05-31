@@ -2,7 +2,7 @@
 rag_server.py
 ==============
 FastAPI RAG 서버 – 기사 전문 + 기존 대사(Q&A 스크립트)를 받아
-벡터 검색 문맥과 함께 ‘개선된 스크립트’를 생성하여 반환합니다.
+벡터 검색 문맥과 함께 '개선된 스크립트'를 생성하여 반환합니다.
 """
 
 import os
@@ -20,7 +20,10 @@ from langchain.prompts import PromptTemplate
 from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_openai import ChatOpenAI
+# (torchvision 연산자 누락 오류 방지를 위해) transformers 가 torchvision 을 import 하지 않도록 환경변수 설정
+os.environ["DISABLE_TORCHVISION_IMPORTS"] = "1"
+from langchain_community.embeddings import SentenceTransformerEmbeddings
 from pydantic import BaseModel
 from config import URLS  # URL 목록만 담고 있는 모듈
 import textwrap
@@ -50,7 +53,6 @@ app = FastAPI()
 
 VECTORSTORE_PATH = "faiss_index"
 vectorstore: FAISS | None = None  # 전역 벡터스토어 객체
-
 
 def load_pdf_from_url(url: str) -> Document:
     """PDF URL에서 텍스트를 추출하여 Document로 반환 (디버깅 로그 포함)"""
@@ -148,16 +150,31 @@ def chunk_documents(docs: List[Document], chunk_size: int = 1000):
 
 
 def create_faiss_vectorstore(
-    docs: List[Document], embeddings: OpenAIEmbeddings, batch_size: int = 500
+    docs: List[Document], embeddings, batch_size: int = 500
 ) -> FAISS:
     """배치 임베딩으로 대용량 문서를 FAISS 스토어로 인덱싱"""
     vector_store: FAISS | None = None
+    doc_count = 0
     for chunked_docs in chunk_documents(docs, batch_size):
+        # ────────────────────────────────────────────────────────
+        # 📌 각 청크 임베딩 진행 상황 로깅
+        # ────────────────────────────────────────────────────────
+        logger.info(f"임베딩 중: 문서 {doc_count + 1} ~ {doc_count + len(chunked_docs)}")
+
+        # PDF 문서가 포함되어 있는지, 있다면 몇 개인지 로깅
+        pdf_docs_in_chunk = [doc for doc in chunked_docs if doc.metadata.get("type") == "pdf"]
+        if pdf_docs_in_chunk:
+            logger.info(f"  └ 이 청크에 PDF 문서 {len(pdf_docs_in_chunk)}개 포함:")
+            for i, pdf_doc in enumerate(pdf_docs_in_chunk[:3]): # 처음 3개 PDF 소스만 로깅 (너무 많으면 생략)
+                logger.info(f"    PDF [{i+1}] 소스: {pdf_doc.metadata.get('source', 'N/A')}, 내용 일부: {textwrap.shorten(pdf_doc.page_content, width=50, placeholder='...')}")
+        
         partial = FAISS.from_documents(chunked_docs, embeddings)
         if vector_store is None:
             vector_store = partial
         else:
             vector_store.merge_from(partial)
+        doc_count += len(chunked_docs)
+    logger.info(f"총 {doc_count}개 문서 청크 임베딩 완료.")
     return vector_store
 
 
@@ -168,7 +185,10 @@ def create_faiss_vectorstore(
 @app.on_event("startup")
 def startup_event():
     global vectorstore
-    embeddings = OpenAIEmbeddings()
+    embeddings = SentenceTransformerEmbeddings(
+        model_name="BAAI/bge-multilingual-gemma2",
+        model_kwargs={"device": "mps"},
+    )
 
     if os.path.exists(VECTORSTORE_PATH):
         print("===== 기존 벡터스토어 로드 중 =====")
