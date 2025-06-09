@@ -30,6 +30,44 @@ import textwrap
 import logging
 
 # ---------------------------------------------------------------------------
+# 캐릭터 스타일 정의
+# ---------------------------------------------------------------------------
+CHARACTER_STYLE = {
+    "crab": {
+        "name": "크랩이",
+        "role": "답변자",
+        "mbti": "ENFJ",
+        "voice": "중고음, 따뜻한 감성, 신뢰감 있는",
+        "style": "긍정적이고 에너지 넘치며 정보를 능숙하게 전달하는 리더형",
+        "example": "괜찮아, 내가 정리해줄게! 이건 우리가 꼭 알아야 해.",
+    },
+    "octopus": {
+        "name": "큐리어스",
+        "role": "답변자",
+        "mbti": "ISTJ",
+        "voice": "중저음, 차분한, 현실적인",
+        "style": "냉철하고 통찰력 있는 백과사전형 설명",
+        "example": "예상된 결과야. 기술은 늘 앞서가.",
+    },
+    "bok": {
+        "name": "큐복이",
+        "role": "질문자",
+        "mbti": "ISFP",
+        "voice": "느릿하고 순한 어버버 스타일",
+        "style": "공감을 잘하며 느릿한 말투를 가진 순한 캐릭터",
+        "example": "잘은 모르지만… 재밌어 보여…",
+    },
+    "starfish": {
+        "name": "큐스타",
+        "role": "질문자",
+        "mbti": "ENTP",
+        "voice": "빠르고 튀는 발랄한 목소리",
+        "style": "자기애 강하고 솔직한 관종형, 말이 빠름",
+        "example": "내가 왔다!!! 흥, 나 없었으면 어쩔 뻔~? 어머~ 이건 무조건 저장각!",
+    },
+}
+
+# ---------------------------------------------------------------------------
 # 로깅 설정 (모듈 상단 한 번만)
 # ---------------------------------------------------------------------------
 logging.basicConfig(
@@ -221,6 +259,8 @@ def startup_event():
 class RagRequest(BaseModel):
     content: str          # 기사 전문
     originalScript: str   # 기존 Q&A 스크립트
+    characterA: str = "starfish"  # 질문자 캐릭터 (기본값: 큐스타)
+    characterB: str = "crab"      # 답변자 캐릭터 (기본값: 크랩이)
 
 
 class RagResponse(BaseModel):
@@ -237,10 +277,12 @@ async def generate_rag_script(req: RagRequest):
     """
     ▸ req.content        : 뉴스 기사 본문
     ▸ req.originalScript : 기존 user1:, user2:… 형태 스크립트
+    ▸ req.characterA     : 질문자 캐릭터 (starfish, bok)
+    ▸ req.characterB     : 답변자 캐릭터 (crab, octopus)
 
     반환값:
         {
-            "script": "user1: ...\nuser2: ...",
+            "script": "characterA: ...\ncharacterB: ...",
             "sources": [{ "source": "...", "content": "..."}, ...]
         }
     """
@@ -250,6 +292,12 @@ async def generate_rag_script(req: RagRequest):
 
     article_text = req.content
     original_script = req.originalScript
+    characterA = req.characterA
+    characterB = req.characterB
+
+    # 캐릭터 스타일 가져오기
+    char1 = CHARACTER_STYLE[characterA]
+    char2 = CHARACTER_STYLE[characterB]
 
     # ----------------- 1) 문맥 검색 -----------------
     retriever = vectorstore.as_retriever(search_kwargs={"k": 4})
@@ -258,36 +306,43 @@ async def generate_rag_script(req: RagRequest):
 
     # ----------------- 2) 프롬프트 -----------------
     prompt = PromptTemplate(
-    input_variables=["content", "originalScript","context"],
-    template=(
-        "아래 뉴스 기사 내용과 이전 대화 스크립트를 참고해서, "
-        "두 캐릭터의 QnA 대사를 새로 생성해주세요.\n\n"
-        "조건:\n"
-        "- 질문자 (user1): 호기심 많고 직설적\n"
-        "- 답변자 (user2): 친절하고 쉽게 설명\n"
-        "- 총 3개의 QnA로 구성해주세요. (각 QnA는 질문 + 대답 세트)\n"
-        "- 반드시 아래 형식을 정확히 지켜 작성:\n"
-        "user1: [질문1]  \n"
-        "user2: [답변1]  \n\n"
-        "user1: [질문2]  \n"
-        "user2: [답변2]  \n\n"
-        "user1: [질문3]  \n"
-        "user2: [답변3]  \n\n"
-        "- 대화만 출력하고, 다른 설명이나 문장은 쓰지 마세요.\n"
-        "- 모든 대사는 한국어로 작성해주세요.\n\n"
-        "Content:\n"
-        "{content}\n\n"
-        "Original Script:\n"
-        "{originalScript}"
-    ),
-)
+        input_variables=["content", "originalScript", "context", "characterA", "characterB", "char1", "char2"],
+        template=(
+            "아래 뉴스 기사 내용과 이전 대화 스크립트를 참고해서, "
+            "두 캐릭터의 QnA 대사를 새로 생성해주세요.\n\n"
+            "조건:\n"
+            "- 질문자 ({char1[name]}): {char1[style]} (예: \"{char1[example]}\")\n"
+            "- 답변자 ({char2[name]}): {char2[style]} (예: \"{char2[example]}\")\n"
+            "- 총 3개의 QnA로 구성해주세요. (각 QnA는 질문 + 대답 세트)\n"
+            "- 각 질문과 답변은 너무 길지 않게, 한두 문장 정도의 짧고 간결한 대사로 작성해주세요.\n"
+            "- 대사가 너무 설명식이 되지 않도록, 실제 캐릭터가 말하듯 자연스럽고 짧게 표현해주세요.\n"
+            "- 반드시 아래 형식을 정확히 지켜 작성:\n\n"
+            "{characterA}: [질문1]  \n"
+            "{characterB}: [답변1]  \n\n"
+            "{characterA}: [질문2]  \n"
+            "{characterB}: [답변2]  \n\n"
+            "{characterA}: [질문3]  \n"
+            "{characterB}: [답변3]  \n\n"
+            "- 대화만 출력하고, 다른 설명이나 문장은 쓰지 마세요.\n"
+            "- 모든 대사는 한국어로 작성해주세요.\n\n"
+            "Content:\n"
+            "{content}\n\n"
+            "Original Script:\n"
+            "{originalScript}"
+        ),
+    )
 
 
     llm = ChatOpenAI(model_name="gpt-4o", temperature=0.3)
     final_prompt = prompt.format(
-    content=article_text,          # {content}
-    originalScript=original_script # {originalScript}
-)
+        content=article_text,
+        originalScript=original_script,
+        context=context,
+        characterA=characterA,
+        characterB=characterB,
+        char1=char1,
+        char2=char2
+    )
     response = llm.invoke(final_prompt)
 
     # ----------------- 3) 응답 -----------------
