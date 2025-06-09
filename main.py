@@ -316,13 +316,15 @@ async def generate_rag_script(req: RagRequest):
             "- 총 3개의 QnA로 구성해주세요. (각 QnA는 질문 + 대답 세트)\n"
             "- 각 질문과 답변은 너무 길지 않게, 한두 문장 정도의 짧고 간결한 대사로 작성해주세요.\n"
             "- 대사가 너무 설명식이 되지 않도록, 실제 캐릭터가 말하듯 자연스럽고 짧게 표현해주세요.\n"
-            "- 반드시 아래 형식을 정확히 지켜 작성:\n\n"
-            "{characterA}: [질문1]  \n"
-            "{characterB}: [답변1]  \n\n"
-            "{characterA}: [질문2]  \n"
-            "{characterB}: [답변2]  \n\n"
-            "{characterA}: [질문3]  \n"
-            "{characterB}: [답변3]  \n\n"
+            "- 각 캐릭터의 대사가 끝날 때마다 반드시 쉼표(,)를 추가해주세요.\n"
+            "- 반드시 아래 형식을 정확히 지켜 작성해주세요. 각 대화 끝에 쉼표가 있어야 합니다.\n\n"
+            "형식 예시:\n"
+            "{characterA}: [질문1],\n"
+            "{characterB}: [답변1],\n\n"
+            "{characterA}: [질문2],\n"
+            "{characterB}: [답변2],\n\n"
+            "{characterA}: [질문3],\n"
+            "{characterB}: [답변3],\n\n"
             "- 대화만 출력하고, 다른 설명이나 문장은 쓰지 마세요.\n"
             "- 모든 대사는 한국어로 작성해주세요.\n\n"
             "Content:\n"
@@ -356,6 +358,6 @@ async def generate_rag_script(req: RagRequest):
     print(sources)
     print(response.content.strip())
     return RagResponse(
-        script=response.content.strip(),
+        script=response.content,
         sources=sources,
     )
