@@ -224,8 +224,8 @@ def create_faiss_vectorstore(
 def startup_event():
     global vectorstore
     embeddings = SentenceTransformerEmbeddings(
-        model_name="BAAI/bge-multilingual-gemma2",
-        model_kwargs={"device": "mps"},
+        model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        model_kwargs={"device": "cpu"},
     )
 
     if os.path.exists(VECTORSTORE_PATH):
@@ -354,6 +354,7 @@ async def generate_rag_script(req: RagRequest):
         for doc in docs
     ]
     print(sources)
+    print(response.content.strip())
     return RagResponse(
         script=response.content.strip(),
         sources=sources,
