@@ -259,8 +259,8 @@ def startup_event():
 class RagRequest(BaseModel):
     content: str          # 기사 전문
     originalScript: str   # 기존 Q&A 스크립트
-    characterA: str = "starfish"  # 질문자 캐릭터 (기본값: 큐스타)
-    characterB: str = "crab"      # 답변자 캐릭터 (기본값: 크랩이)
+    character1: str = "starfish"  # 질문자 캐릭터 (기본값: 큐스타)
+    character2: str = "crab"      # 답변자 캐릭터 (기본값: 크랩이)
 
 
 class RagResponse(BaseModel):
@@ -277,12 +277,12 @@ async def generate_rag_script(req: RagRequest):
     """
     ▸ req.content        : 뉴스 기사 본문
     ▸ req.originalScript : 기존 user1:, user2:… 형태 스크립트
-    ▸ req.characterA     : 질문자 캐릭터 (starfish, bok)
-    ▸ req.characterB     : 답변자 캐릭터 (crab, octopus)
+    ▸ req.character1     : 질문자 캐릭터 (starfish, bok)
+    ▸ req.character2     : 답변자 캐릭터 (crab, octopus)
 
     반환값:
         {
-            "script": "characterA: ...\ncharacterB: ...",
+            "script": "character1: ...\ncharacter2: ...",
             "sources": [{ "source": "...", "content": "..."}, ...]
         }
     """
@@ -292,16 +292,16 @@ async def generate_rag_script(req: RagRequest):
 
     article_text = req.content
     original_script = req.originalScript
-    characterA = req.character1
-    characterB = req.character2
-    logger.info(f"Character A: {req.characterA}")
-    logger.info(f"Character B: {req.characterB}")
+    character1 = req.character1
+    character2 = req.character2
+    logger.info(f"Character A: {req.character1}")
+    logger.info(f"Character B: {req.character2}")
 
 
 
     # 캐릭터 스타일 가져오기
-    char1 = CHARACTER_STYLE[characterA]
-    char2 = CHARACTER_STYLE[characterB]
+    char1 = CHARACTER_STYLE[character1]
+    char2 = CHARACTER_STYLE[character2]
 
     # ----------------- 1) 문맥 검색 -----------------
     retriever = vectorstore.as_retriever(search_kwargs={"k": 4})
@@ -310,7 +310,7 @@ async def generate_rag_script(req: RagRequest):
 
     # ----------------- 2) 프롬프트 -----------------
     prompt = PromptTemplate(
-        input_variables=["content", "originalScript", "context", "characterA", "characterB", "char1", "char2"],
+        input_variables=["content", "originalScript", "context", "character1", "character2", "char1", "char2"],
         template=(
             "아래 뉴스 기사 내용과 이전 대화 스크립트를 참고해서, "
             "두 캐릭터의 QnA 대사를 새로 생성해주세요.\n\n"
@@ -321,12 +321,12 @@ async def generate_rag_script(req: RagRequest):
             "- 각 질문과 답변은 너무 길지 않게, 한두 문장 정도의 짧고 간결한 대사로 작성해주세요.\n"
             "- 대사가 너무 설명식이 되지 않도록, 실제 캐릭터가 말하듯 자연스럽고 짧게 표현해주세요.\n"
             "형식 예시:\n"
-            "{characterA}: [질문1],\n"
-            "{characterB}: [답변1],\n\n"
-            "{characterA}: [질문2],\n"
-            "{characterB}: [답변2],\n\n"
-            "{characterA}: [질문3],\n"
-            "{characterB}: [답변3],\n\n"
+            "{character1}: [질문1],\n"
+            "{character2}: [답변1],\n\n"
+            "{character1}: [질문2],\n"
+            "{character2}: [답변2],\n\n"
+            "{character1}: [질문3],\n"
+            "{character2}: [답변3],\n\n"
             "- 대화만 출력하고, 다른 설명이나 문장은 쓰지 마세요.\n"
             "- 모든 대사는 한국어로 작성해주세요.\n\n"
             "Content:\n"
@@ -342,8 +342,8 @@ async def generate_rag_script(req: RagRequest):
         content=article_text,
         originalScript=original_script,
         context=context,
-        characterA=characterA,
-        characterB=characterB,
+        character1=character1,
+        character2=character2,
         char1=char1,
         char2=char2
     )
