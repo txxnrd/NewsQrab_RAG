@@ -342,8 +342,8 @@ async def generate_rag_script(req: RagRequest):
         content=article_text,
         originalScript=original_script,
         context=context,
-        characterA=characterA,
-        characterB=characterB,
+        characterA=character1,
+        characterB=character2,
         char1=char1,
         char2=char2
     )
