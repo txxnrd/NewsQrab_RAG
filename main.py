@@ -294,8 +294,9 @@ async def generate_rag_script(req: RagRequest):
     original_script = req.originalScript
     characterA = req.characterA
     characterB = req.characterB
-    print("Character A:", req.characterA)
-    print("Character B:", req.characterB)
+    logger.info(f"Character A: {req.characterA}")
+    logger.info(f"Character B: {req.characterB}")
+
 
 
     # 캐릭터 스타일 가져오기
