@@ -35,7 +35,7 @@ import logging
 # ---------------------------------------------------------------------------
 CHARACTER_STYLE = {
     "crab": {
-        "name": "크랩이",
+        "name": "crab",
         "role": "답변자",
         "mbti": "ENFJ",
         "voice": "중고음, 따뜻한 감성, 신뢰감 있는",
@@ -43,7 +43,7 @@ CHARACTER_STYLE = {
         "example": "괜찮아, 내가 정리해줄게! 이건 우리가 꼭 알아야 해.",
     },
     "octopus": {
-        "name": "큐리어스",
+        "name": "octopus",
         "role": "답변자",
         "mbti": "ISTJ",
         "voice": "중저음, 차분한, 현실적인",
@@ -51,7 +51,7 @@ CHARACTER_STYLE = {
         "example": "예상된 결과야. 기술은 늘 앞서가.",
     },
     "bok": {
-        "name": "큐복이",
+        "name": "bok",
         "role": "질문자",
         "mbti": "ISFP",
         "voice": "느릿하고 순한 어버버 스타일",
@@ -59,7 +59,7 @@ CHARACTER_STYLE = {
         "example": "잘은 모르지만… 재밌어 보여…",
     },
     "starfish": {
-        "name": "큐스타",
+        "name": "starfish",
         "role": "질문자",
         "mbti": "ENTP",
         "voice": "빠르고 튀는 발랄한 목소리",
