@@ -24,6 +24,7 @@ from langchain_openai import ChatOpenAI
 # (torchvision 연산자 누락 오류 방지를 위해) transformers 가 torchvision 을 import 하지 않도록 환경변수 설정
 os.environ["DISABLE_TORCHVISION_IMPORTS"] = "1"
 from langchain_community.embeddings import SentenceTransformerEmbeddings
+from sentence_transformers import CrossEncoder
 from pydantic import BaseModel
 from config import URLS  # URL 목록만 담고 있는 모듈
 import textwrap
@@ -91,6 +92,7 @@ app = FastAPI()
 
 VECTORSTORE_PATH = "faiss_index"
 vectorstore: FAISS | None = None  # 전역 벡터스토어 객체
+cross_encoder: CrossEncoder | None = None  # 전역 Cross-Encoder 객체
 
 def load_pdf_from_url(url: str) -> Document:
     """PDF URL에서 텍스트를 추출하여 Document로 반환 (디버깅 로그 포함)"""
@@ -222,11 +224,17 @@ def create_faiss_vectorstore(
 
 @app.on_event("startup")
 def startup_event():
-    global vectorstore
+    global vectorstore, cross_encoder
     embeddings = SentenceTransformerEmbeddings(
         model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         model_kwargs={"device": "cpu"},
     )
+
+    print("===== Cross-encoder 모델 로드 중 =====")
+    cross_encoder = CrossEncoder(
+        "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    )
+    print("===== Cross-encoder 모델 로드 완료 =====")
 
     if os.path.exists(VECTORSTORE_PATH):
         print("===== 기존 벡터스토어 로드 중 =====")
@@ -286,9 +294,9 @@ async def generate_rag_script(req: RagRequest):
             "sources": [{ "source": "...", "content": "..."}, ...]
         }
     """
-    global vectorstore
-    if vectorstore is None:
-        return {"error": "Vectorstore not initialized."}
+    global vectorstore, cross_encoder
+    if vectorstore is None or cross_encoder is None:
+        return {"error": "Vectorstore or CrossEncoder not initialized."}
 
     article_text = req.content
     original_script = req.originalScript
@@ -303,9 +311,30 @@ async def generate_rag_script(req: RagRequest):
     char1 = CHARACTER_STYLE[character1]
     char2 = CHARACTER_STYLE[character2]
 
-    # ----------------- 1) 문맥 검색 -----------------
-    retriever = vectorstore.as_retriever(search_kwargs={"k": 4})
-    docs = retriever.get_relevant_documents(article_text)
+    # ----------------- 1) 문맥 검색 (2-stage: Retriever + Reranker) -----------------
+    # 1-1) 1차 검색 (Retriever): FAISS에서 Top-100 문서 가져오기
+    logger.info("1단계: FAISS에서 문서 100개 검색")
+    retriever = vectorstore.as_retriever(search_kwargs={"k": 100})
+    retrieved_docs = retriever.get_relevant_documents(article_text)
+    logger.info(f"  -> {len(retrieved_docs)}개 문서 검색 완료.")
+
+    # 1-2) 2차 검색 (Reranker): Cross-encoder로 관련성 높은 Top-4 문서 재선정
+    logger.info("2단계: Cross-encoder로 재점수화하여 Top-4 선정")
+    # 쿼리와 문서 내용으로 페어 생성
+    pairs = [[article_text, doc.page_content] for doc in retrieved_docs]
+
+    # Cross-encoder로 점수 계산
+    scores = cross_encoder.predict(pairs, show_progress_bar=True)
+
+    # 점수와 문서를 튜플로 묶어 점수 기준 내림차순 정렬
+    scored_docs = sorted(zip(scores, retrieved_docs), key=lambda x: x[0], reverse=True)
+
+    # 상위 4개 문서 선택
+    docs = [doc for score, doc in scored_docs[:4]]
+    logger.info("  -> 재점수화 후 Top-4 문서 선정 완료.")
+    for i, doc in enumerate(docs):
+        logger.info(f"    Top {i+1}: {doc.metadata.get('source', 'N/A')} (Score: {scored_docs[i][0]:.4f})")
+    
     context = "\n\n".join(d.page_content for d in docs)
 
     # ----------------- 2) 프롬프트 -----------------
