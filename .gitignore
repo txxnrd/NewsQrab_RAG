@@ -292,3 +292,8 @@ pyrightconfig.json
 ._.DS_Store
 **/.DS_Store
 **/._.DS_Store
+
+.idea/
+
+# macOS
+.DS_Store
