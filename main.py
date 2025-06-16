@@ -357,7 +357,7 @@ async def generate_rag_script(req: RagRequest):
             "{character1}: [질문3],\n"
             "{character2}: [답변3],\n\n"
             "- 대화만 출력하고, 다른 설명이나 문장은 쓰지 마세요.\n"
-            "- 모든 대사는 한국어로 작성해주세요.\n\n"
+            "- character 이름을 제외한 모든 대사는 한국어로 작성해주세요.\n\n"
             "Content:\n"
             "{content}\n\n"
             "Original Script:\n"

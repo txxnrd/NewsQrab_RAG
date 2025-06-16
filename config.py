@@ -154,71 +154,182 @@ URLS = [
     "https://arxiv.org/pdf/1807.11164",
     "https://arxiv.org/pdf/1512.00567",
     "https://arxiv.org/pdf/1602.07261",
-    # "https://arxiv.org/pdf/1704.04861",
-    # "https://arxiv.org/pdf/1412.6980",
-    # "https://arxiv.org/pdf/1502.03167",
-    # "https://arxiv.org/pdf/1506.02629",
-    # "https://arxiv.org/pdf/1511.06434",
-    # "https://arxiv.org/pdf/1710.05941",
-    # "https://arxiv.org/pdf/1905.02244",
-    # "https://arxiv.org/pdf/1803.08494",
-    # "https://arxiv.org/pdf/1607.08022",
-    # "https://arxiv.org/pdf/1801.05134",
-    # "https://arxiv.org/pdf/1603.05027",
-    # "https://arxiv.org/pdf/1710.09412",
-    # "https://arxiv.org/pdf/1710.10196",
+    "https://arxiv.org/pdf/1704.04861",
+    "https://arxiv.org/pdf/1412.6980",
+    "https://arxiv.org/pdf/1502.03167",
+    "https://arxiv.org/pdf/1506.02629",
+    "https://arxiv.org/pdf/1511.06434",
+    "https://arxiv.org/pdf/1710.05941",
+    "https://arxiv.org/pdf/1905.02244",
+    "https://arxiv.org/pdf/1803.08494",
+    "https://arxiv.org/pdf/1607.08022",
+    "https://arxiv.org/pdf/1801.05134",
+    "https://arxiv.org/pdf/1603.05027",
+    "https://arxiv.org/pdf/1710.09412",
+    "https://arxiv.org/pdf/1710.10196",
+    "https://arxiv.org/pdf/1909.11942",
+    "https://arxiv.org/pdf/2020.02311",
+    "https://arxiv.org/pdf/1803.05407",
+    "https://arxiv.org/pdf/1711.00165",
+    "https://arxiv.org/pdf/1608.03983",
+    "https://arxiv.org/pdf/1312.4400",
+    "https://arxiv.org/pdf/1509.02971",
+    "https://arxiv.org/pdf/1707.06203",
+    "https://arxiv.org/pdf/1602.01783",
+    "https://arxiv.org/pdf/1706.10295",
+    "https://arxiv.org/pdf/1511.05952",
+    "https://arxiv.org/pdf/1511.09249",
+    "https://arxiv.org/pdf/1509.06461",
+    "https://arxiv.org/pdf/1802.09477",
+    "https://arxiv.org/pdf/1707.02286",
+    "https://arxiv.org/pdf/1710.02298",
+    "https://arxiv.org/pdf/1712.01815",
+    "https://arxiv.org/pdf/1912.06680",
+    "https://arxiv.org/pdf/1706.05394",
+    "https://arxiv.org/pdf/1703.01161",
+    "https://arxiv.org/pdf/1312.6114",
+    "https://arxiv.org/pdf/1406.5298",
+    "https://arxiv.org/pdf/1511.06434",
+    "https://arxiv.org/pdf/1701.00160",
+    "https://arxiv.org/pdf/1704.00028",
+    "https://arxiv.org/pdf/1805.08318",
+    "https://arxiv.org/pdf/1809.11096",
+    "https://arxiv.org/pdf/1710.10196",
+    "https://arxiv.org/pdf/2006.11239",
+    "https://arxiv.org/pdf/2102.09672",
+    "https://arxiv.org/pdf/2105.05233",
+    "https://arxiv.org/pdf/2112.10752",
+    "https://arxiv.org/pdf/2204.06125",
+    "https://arxiv.org/pdf/2301.11093",
+    "https://arxiv.org/pdf/1609.04802",
+    "https://arxiv.org/pdf/1703.03400",
+    "https://arxiv.org/pdf/1606.04080",
+    "https://arxiv.org/pdf/1703.05175",
+    "https://arxiv.org/pdf/1711.06025",
+    "https://arxiv.org/pdf/1904.04232",
+    "https://arxiv.org/pdf/1909.02729",
+    "https://arxiv.org/pdf/2003.05003",
+    "https://arxiv.org/pdf/2104.02638",
+    "https://arxiv.org/pdf/1609.02907",
+    "https://arxiv.org/pdf/1710.10903",
+    "https://arxiv.org/pdf/1706.02216",
+    "https://arxiv.org/pdf/1511.05493",
+    "https://arxiv.org/pdf/1312.6203",
+    "https://arxiv.org/pdf/1803.03735",
+    "https://arxiv.org/pdf/1905.02850",
+    "https://arxiv.org/pdf/1905.12265",
+    "https://arxiv.org/pdf/2005.00687",
+    "https://arxiv.org/pdf/1609.03499",
+    "https://arxiv.org/pdf/1703.10135",
+    "https://arxiv.org/pdf/1712.05884",
+    "https://arxiv.org/pdf/1807.03748",
+    "https://arxiv.org/pdf/2106.07889",
+    "https://arxiv.org/pdf/2010.05646",
+    "https://arxiv.org/pdf/1904.05862",
+    "https://arxiv.org/pdf/1409.3215",
+    "https://arxiv.org/pdf/1503.04069",
+    "https://arxiv.org/pdf/1308.0850",
+    "https://arxiv.org/pdf/1511.04508",
+    "https://arxiv.org/pdf/1803.01271",
+    "https://arxiv.org/pdf/1901.02860",
+    "https://arxiv.org/pdf/2001.04451",
+    "https://arxiv.org/pdf/2004.05150",
+    "https://arxiv.org/pdf/2009.06732",
+    "https://arxiv.org/pdf/1411.4555",
+    "https://arxiv.org/pdf/1502.03044",
+    "https://arxiv.org/pdf/1707.07998",
+    "https://arxiv.org/pdf/1908.02265",
+    "https://arxiv.org/pdf/2001.00179",
+    "https://arxiv.org/pdf/2103.15679",
+    "https://arxiv.org/pdf/2204.14198",
+    "https://arxiv.org/pdf/2301.12597",
+    "https://arxiv.org/pdf/1611.01578",
+    "https://arxiv.org/pdf/1708.05344",
+    "https://arxiv.org/pdf/1807.11626",
+    "https://arxiv.org/pdf/1806.09055",
+    "https://arxiv.org/pdf/1904.09925",
+    "https://arxiv.org/pdf/2004.08955",
+    "https://arxiv.org/pdf/1312.6034",
+    "https://arxiv.org/pdf/1311.2901",
+    "https://arxiv.org/pdf/1603.08155",
+    "https://arxiv.org/pdf/1704.02685",
+    "https://arxiv.org/pdf/1710.10547",
+    "https://arxiv.org/pdf/1806.07538",
+    "https://arxiv.org/pdf/1909.06342",
+    "https://arxiv.org/pdf/2004.14545",
+    "https://arxiv.org/pdf/1412.6572",
+    "https://arxiv.org/pdf/1511.04508",
+    "https://arxiv.org/pdf/1608.04644",
+    "https://arxiv.org/pdf/1706.06083",
+    "https://arxiv.org/pdf/1711.00851",
+    "https://arxiv.org/pdf/1805.12152",
+    "https://arxiv.org/pdf/1902.06705",
+    "https://arxiv.org/pdf/1411.1792",
+    "https://arxiv.org/pdf/1505.07818",
+    "https://arxiv.org/pdf/1409.7495",
+    "https://arxiv.org/pdf/1708.02637",
+    "https://arxiv.org/pdf/1909.11740",
+    "https://arxiv.org/pdf/2006.03654",
+    "https://arxiv.org/pdf/1710.05468",
+    "https://arxiv.org/pdf/1611.03530",
+    "https://arxiv.org/pdf/1802.05296",
+    "https://arxiv.org/pdf/1906.02629",
+    "https://arxiv.org/pdf/2003.02395",
+    "https://arxiv.org/pdf/1712.00864",
+    "https://arxiv.org/pdf/1704.08863",
+    "https://arxiv.org/pdf/1509.06825",
+    "https://arxiv.org/pdf/1707.02201",
+    "https://arxiv.org/pdf/1703.06907",
+    "https://arxiv.org/pdf/1802.09464",
+    "https://arxiv.org/pdf/1910.07113",
+    "https://arxiv.org/pdf/1612.00593",
+    "https://arxiv.org/pdf/1706.02413",
+    "https://arxiv.org/pdf/1904.08755",
+    "https://arxiv.org/pdf/1711.06396",
+    "https://arxiv.org/pdf/1812.07179",
+    "https://arxiv.org/pdf/1606.04797",
+    "https://arxiv.org/pdf/1711.05225",
+    "https://arxiv.org/pdf/1707.12357",
+    "https://arxiv.org/pdf/1909.02565",
+    "https://arxiv.org/pdf/2010.02502",
+    "https://arxiv.org/pdf/1602.07360",
+    "https://arxiv.org/pdf/1704.04861",
+    "https://arxiv.org/pdf/1807.11164",
+    "https://arxiv.org/pdf/1905.02244",
+    "https://arxiv.org/pdf/2104.00298",
+      ## Communication
+    # "https://arxiv.org/pdf/1706.03762",
+    # "https://arxiv.org/pdf/2005.14165",
+    # "https://arxiv.org/pdf/1810.04805",
+    # "https://arxiv.org/pdf/2203.02155",
     # "https://arxiv.org/pdf/1909.11942",
-    # "https://arxiv.org/pdf/2020.02311",
-    # "https://arxiv.org/pdf/1803.05407",
-    # "https://arxiv.org/pdf/1711.00165",
-    # "https://arxiv.org/pdf/1608.03983",
-    # "https://arxiv.org/pdf/1312.4400",
-    # "https://arxiv.org/pdf/1509.02971",
-    # "https://arxiv.org/pdf/1707.06203",
-    # "https://arxiv.org/pdf/1602.01783",
-    # "https://arxiv.org/pdf/1706.10295",
-    # "https://arxiv.org/pdf/1511.05952",
-    # "https://arxiv.org/pdf/1511.09249",
-    # "https://arxiv.org/pdf/1509.06461",
-    # "https://arxiv.org/pdf/1802.09477",
-    # "https://arxiv.org/pdf/1707.02286",
-    # "https://arxiv.org/pdf/1710.02298",
-    # "https://arxiv.org/pdf/1712.01815",
-    # "https://arxiv.org/pdf/1912.06680",
-    # "https://arxiv.org/pdf/1706.05394",
-    # "https://arxiv.org/pdf/1703.01161",
-    # "https://arxiv.org/pdf/1312.6114",
-    # "https://arxiv.org/pdf/1406.5298",
-    # "https://arxiv.org/pdf/1511.06434",
-    # "https://arxiv.org/pdf/1701.00160",
-    # "https://arxiv.org/pdf/1704.00028",
-    # "https://arxiv.org/pdf/1805.08318",
-    # "https://arxiv.org/pdf/1809.11096",
-    # "https://arxiv.org/pdf/1710.10196",
-    # "https://arxiv.org/pdf/2006.11239",
-    # "https://arxiv.org/pdf/2102.09672",
-    # "https://arxiv.org/pdf/2105.05233",
+    # "https://arxiv.org/pdf/1907.11692",
+    # "https://arxiv.org/pdf/2019.12688",
+    # "https://arxiv.org/pdf/2005.11401",
+    # "https://arxiv.org/pdf/2106.09685",
+    # "https://arxiv.org/pdf/2204.02311",
+    # "https://arxiv.org/pdf/2301.00234",
+    # "https://arxiv.org/pdf/2203.15556",
     # "https://arxiv.org/pdf/2112.10752",
-    # "https://arxiv.org/pdf/2204.06125",
-    # "https://arxiv.org/pdf/2301.11093",
-    # "https://arxiv.org/pdf/1609.04802",
-    # "https://arxiv.org/pdf/1703.03400",
-    # "https://arxiv.org/pdf/1606.04080",
-    # "https://arxiv.org/pdf/1703.05175",
-    # "https://arxiv.org/pdf/1711.06025",
-    # "https://arxiv.org/pdf/1904.04232",
-    # "https://arxiv.org/pdf/1909.02729",
-    # "https://arxiv.org/pdf/2003.05003",
-    # "https://arxiv.org/pdf/2104.02638",
-    # "https://arxiv.org/pdf/1609.02907",
-    # "https://arxiv.org/pdf/1710.10903",
-    # "https://arxiv.org/pdf/1706.02216",
-    # "https://arxiv.org/pdf/1511.05493",
-    # "https://arxiv.org/pdf/1312.6203",
-    # "https://arxiv.org/pdf/1803.03735",
-    # "https://arxiv.org/pdf/1905.02850",
-    # "https://arxiv.org/pdf/1905.12265",
-    # "https://arxiv.org/pdf/2005.00687",
+    # "https://arxiv.org/pdf/2110.01852",
+    # "https://arxiv.org/pdf/2002.05202",
+    # "https://arxiv.org/pdf/2108.07732",
+    # "https://arxiv.org/pdf/2106.04554",
+    # "https://arxiv.org/pdf/2107.03374",
+    # "https://arxiv.org/pdf/1508.07909",
+    # "https://arxiv.org/pdf/1409.0473",
+    # "https://arxiv.org/pdf/1604.06174",
+    # "https://arxiv.org/pdf/1909.08593",
+    # "https://arxiv.org/pdf/2010.02502",
+    # "https://arxiv.org/pdf/2203.07814",
+    # "https://arxiv.org/pdf/2301.07041",
+    # "https://arxiv.org/pdf/2302.13971",
+    # "https://arxiv.org/pdf/1607.08022",
+    # "https://arxiv.org/pdf/1803.01271",
+    # "https://arxiv.org/pdf/1901.02860",
+    # "https://arxiv.org/pdf/2001.04451",
+    # "https://arxiv.org/pdf/2004.05150",
+    # "https://arxiv.org/pdf/2009.06732",
     # "https://arxiv.org/pdf/1609.03499",
     # "https://arxiv.org/pdf/1703.10135",
     # "https://arxiv.org/pdf/1712.05884",
@@ -230,639 +341,528 @@ URLS = [
     # "https://arxiv.org/pdf/1503.04069",
     # "https://arxiv.org/pdf/1308.0850",
     # "https://arxiv.org/pdf/1511.04508",
-    # "https://arxiv.org/pdf/1803.01271",
-    # "https://arxiv.org/pdf/1901.02860",
-    # "https://arxiv.org/pdf/2001.04451",
-    # "https://arxiv.org/pdf/2004.05150",
-    # "https://arxiv.org/pdf/2009.06732",
-    # "https://arxiv.org/pdf/1411.4555",
-    # "https://arxiv.org/pdf/1502.03044",
-    # "https://arxiv.org/pdf/1707.07998",
-    # "https://arxiv.org/pdf/1908.02265",
-    # "https://arxiv.org/pdf/2001.00179",
-    # "https://arxiv.org/pdf/2103.15679",
-    # "https://arxiv.org/pdf/2204.14198",
-    # "https://arxiv.org/pdf/2301.12597",
-    # "https://arxiv.org/pdf/1611.01578",
-    # "https://arxiv.org/pdf/1708.05344",
-    # "https://arxiv.org/pdf/1807.11626",
-    # "https://arxiv.org/pdf/1806.09055",
-    # "https://arxiv.org/pdf/1904.09925",
-    # "https://arxiv.org/pdf/2004.08955",
-    # "https://arxiv.org/pdf/1312.6034",
-    # "https://arxiv.org/pdf/1311.2901",
-    # "https://arxiv.org/pdf/1603.08155",
-    # "https://arxiv.org/pdf/1704.02685",
-    # "https://arxiv.org/pdf/1710.10547",
-    # "https://arxiv.org/pdf/1806.07538",
-    # "https://arxiv.org/pdf/1909.06342",
-    # "https://arxiv.org/pdf/2004.14545",
-    # "https://arxiv.org/pdf/1412.6572",
-    # "https://arxiv.org/pdf/1511.04508",
-    # "https://arxiv.org/pdf/1608.04644",
-    # "https://arxiv.org/pdf/1706.06083",
-    # "https://arxiv.org/pdf/1711.00851",
-    # "https://arxiv.org/pdf/1805.12152",
-    # "https://arxiv.org/pdf/1902.06705",
-    # "https://arxiv.org/pdf/1411.1792",
-    # "https://arxiv.org/pdf/1505.07818",
-    # "https://arxiv.org/pdf/1409.7495",
-    # "https://arxiv.org/pdf/1708.02637",
-    # "https://arxiv.org/pdf/1909.11740",
-    # "https://arxiv.org/pdf/2006.03654",
-    # "https://arxiv.org/pdf/1710.05468",
-    # "https://arxiv.org/pdf/1611.03530",
-    # "https://arxiv.org/pdf/1802.05296",
-    # "https://arxiv.org/pdf/1906.02629",
-    # "https://arxiv.org/pdf/2003.02395",
-    # "https://arxiv.org/pdf/1712.00864",
-    # "https://arxiv.org/pdf/1704.08863",
-    # "https://arxiv.org/pdf/1509.06825",
-    # "https://arxiv.org/pdf/1707.02201",
-    # "https://arxiv.org/pdf/1703.06907",
-    # "https://arxiv.org/pdf/1802.09464",
-    # "https://arxiv.org/pdf/1910.07113",
-    # "https://arxiv.org/pdf/1612.00593",
-    # "https://arxiv.org/pdf/1706.02413",
-    # "https://arxiv.org/pdf/1904.08755",
-    # "https://arxiv.org/pdf/1711.06396",
-    # "https://arxiv.org/pdf/1812.07179",
-    # "https://arxiv.org/pdf/1606.04797",
-    # "https://arxiv.org/pdf/1711.05225",
-    # "https://arxiv.org/pdf/1707.12357",
-    # "https://arxiv.org/pdf/1909.02565",
-    # "https://arxiv.org/pdf/2010.02502",
-    # "https://arxiv.org/pdf/1602.07360",
-    # "https://arxiv.org/pdf/1704.04861",
+
+    ## Life Sciences
+    "https://arxiv.org/pdf/1606.04797",
+    "https://arxiv.org/pdf/1711.05225",
+    "https://arxiv.org/pdf/1707.12357",
+    "https://arxiv.org/pdf/1909.02565",
+    "https://arxiv.org/pdf/2010.02502",
+    "https://arxiv.org/pdf/1810.04805",
+    "https://arxiv.org/pdf/2005.14165",
+    "https://arxiv.org/pdf/1909.08593",
+    "https://arxiv.org/pdf/2010.02502",
+    "https://arxiv.org/pdf/2002.05202",
+    "https://arxiv.org/pdf/2108.07732",
+    "https://arxiv.org/pdf/1703.01161",
+    "https://arxiv.org/pdf/1411.4555",
+    "https://arxiv.org/pdf/1502.03044",
+    "https://arxiv.org/pdf/1707.07998",
+    "https://arxiv.org/pdf/1908.02265",
+    "https://arxiv.org/pdf/2001.00179",
+    "https://arxiv.org/pdf/2103.15679",
+    "https://arxiv.org/pdf/2204.14198",
+    "https://arxiv.org/pdf/2301.12597",
+    "https://arxiv.org/pdf/1411.1792",
+    "https://arxiv.org/pdf/1505.07818",
+    "https://arxiv.org/pdf/1409.7495",
+    "https://arxiv.org/pdf/1708.02637",
+    "https://arxiv.org/pdf/1909.11740",
+    "https://arxiv.org/pdf/2006.03654",
+    "https://arxiv.org/pdf/1703.03400",
+    "https://arxiv.org/pdf/1606.04080",
+    "https://arxiv.org/pdf/1703.05175",
+    "https://arxiv.org/pdf/1711.06025",
+    "https://arxiv.org/pdf/1904.04232",
+    "https://arxiv.org/pdf/1909.02729",
+    "https://arxiv.org/pdf/2003.05003",
+    "https://arxiv.org/pdf/2104.02638",
+    "https://arxiv.org/pdf/1312.6034",
+    "https://arxiv.org/pdf/1311.2901",
+    "https://arxiv.org/pdf/1603.08155",
+    "https://arxiv.org/pdf/1704.02685",
+    "https://arxiv.org/pdf/1710.10547",
+    "https://arxiv.org/pdf/1806.07538",
+    "https://arxiv.org/pdf/1909.06342",
+    "https://arxiv.org/pdf/2004.14545",
+
+    # ## Computer Vision
+    # "https://arxiv.org/pdf/1512.03385",
+    # "https://arxiv.org/pdf/1409.1556",
+    # "https://arxiv.org/pdf/1608.06993",
+    # "https://arxiv.org/pdf/1709.01507",
     # "https://arxiv.org/pdf/1807.11164",
-    # "https://arxiv.org/pdf/1905.02244",
+    # "https://arxiv.org/pdf/1512.00567",
+    # "https://arxiv.org/pdf/1602.07261",
+    # "https://arxiv.org/pdf/1704.04861",
+    # "https://arxiv.org/pdf/1801.04381",
+    # "https://arxiv.org/pdf/1905.03493",
+    # "https://arxiv.org/pdf/1701.07875",
+    # "https://arxiv.org/pdf/1802.05365",
+    # "https://arxiv.org/pdf/1910.10683",
+    # "https://arxiv.org/pdf/1506.02142",
+    # "https://arxiv.org/pdf/1707.06347",
+    # "https://arxiv.org/pdf/1804.02767",
+    # "https://arxiv.org/pdf/2004.10934",
+    # "https://arxiv.org/pdf/1703.06870",
+    # "https://arxiv.org/pdf/1506.01497",
+    # "https://arxiv.org/pdf/1311.2524",
+    # "https://arxiv.org/pdf/1905.04899",
+    # "https://arxiv.org/pdf/1911.09070",
+    # "https://arxiv.org/pdf/1602.07360",
+    # "https://arxiv.org/pdf/1807.11164",
     # "https://arxiv.org/pdf/2104.00298",
-    #   ## Communication
-    # # "https://arxiv.org/pdf/1706.03762",
-    # # "https://arxiv.org/pdf/2005.14165",
-    # # "https://arxiv.org/pdf/1810.04805",
-    # # "https://arxiv.org/pdf/2203.02155",
-    # # "https://arxiv.org/pdf/1909.11942",
-    # # "https://arxiv.org/pdf/1907.11692",
-    # # "https://arxiv.org/pdf/2019.12688",
-    # # "https://arxiv.org/pdf/2005.11401",
-    # # "https://arxiv.org/pdf/2106.09685",
-    # # "https://arxiv.org/pdf/2204.02311",
-    # # "https://arxiv.org/pdf/2301.00234",
-    # # "https://arxiv.org/pdf/2203.15556",
-    # # "https://arxiv.org/pdf/2112.10752",
-    # # "https://arxiv.org/pdf/2110.01852",
-    # # "https://arxiv.org/pdf/2002.05202",
-    # # "https://arxiv.org/pdf/2108.07732",
-    # # "https://arxiv.org/pdf/2106.04554",
-    # # "https://arxiv.org/pdf/2107.03374",
-    # # "https://arxiv.org/pdf/1508.07909",
-    # # "https://arxiv.org/pdf/1409.0473",
-    # # "https://arxiv.org/pdf/1604.06174",
-    # # "https://arxiv.org/pdf/1909.08593",
-    # # "https://arxiv.org/pdf/2010.02502",
-    # # "https://arxiv.org/pdf/2203.07814",
-    # # "https://arxiv.org/pdf/2301.07041",
-    # # "https://arxiv.org/pdf/2302.13971",
-    # # "https://arxiv.org/pdf/1607.08022",
-    # # "https://arxiv.org/pdf/1803.01271",
-    # # "https://arxiv.org/pdf/1901.02860",
-    # # "https://arxiv.org/pdf/2001.04451",
-    # # "https://arxiv.org/pdf/2004.05150",
-    # # "https://arxiv.org/pdf/2009.06732",
-    # # "https://arxiv.org/pdf/1609.03499",
-    # # "https://arxiv.org/pdf/1703.10135",
-    # # "https://arxiv.org/pdf/1712.05884",
-    # # "https://arxiv.org/pdf/1807.03748",
-    # # "https://arxiv.org/pdf/2106.07889",
-    # # "https://arxiv.org/pdf/2010.05646",
-    # # "https://arxiv.org/pdf/1904.05862",
-    # # "https://arxiv.org/pdf/1409.3215",
-    # # "https://arxiv.org/pdf/1503.04069",
-    # # "https://arxiv.org/pdf/1308.0850",
-    # # "https://arxiv.org/pdf/1511.04508",
-
-    # ## Life Sciences
-    # "https://arxiv.org/pdf/1606.04797",
-    # "https://arxiv.org/pdf/1711.05225",
-    # "https://arxiv.org/pdf/1707.12357",
-    # "https://arxiv.org/pdf/1909.02565",
-    # "https://arxiv.org/pdf/2010.02502",
-    # "https://arxiv.org/pdf/1810.04805",
-    # "https://arxiv.org/pdf/2005.14165",
-    # "https://arxiv.org/pdf/1909.08593",
-    # "https://arxiv.org/pdf/2010.02502",
-    # "https://arxiv.org/pdf/2002.05202",
-    # "https://arxiv.org/pdf/2108.07732",
-    # "https://arxiv.org/pdf/1703.01161",
-    # "https://arxiv.org/pdf/1411.4555",
-    # "https://arxiv.org/pdf/1502.03044",
-    # "https://arxiv.org/pdf/1707.07998",
-    # "https://arxiv.org/pdf/1908.02265",
-    # "https://arxiv.org/pdf/2001.00179",
-    # "https://arxiv.org/pdf/2103.15679",
-    # "https://arxiv.org/pdf/2204.14198",
-    # "https://arxiv.org/pdf/2301.12597",
-    # "https://arxiv.org/pdf/1411.1792",
-    # "https://arxiv.org/pdf/1505.07818",
-    # "https://arxiv.org/pdf/1409.7495",
-    # "https://arxiv.org/pdf/1708.02637",
-    # "https://arxiv.org/pdf/1909.11740",
-    # "https://arxiv.org/pdf/2006.03654",
-    # "https://arxiv.org/pdf/1703.03400",
-    # "https://arxiv.org/pdf/1606.04080",
-    # "https://arxiv.org/pdf/1703.05175",
-    # "https://arxiv.org/pdf/1711.06025",
-    # "https://arxiv.org/pdf/1904.04232",
-    # "https://arxiv.org/pdf/1909.02729",
-    # "https://arxiv.org/pdf/2003.05003",
-    # "https://arxiv.org/pdf/2104.02638",
-    # "https://arxiv.org/pdf/1312.6034",
-    # "https://arxiv.org/pdf/1311.2901",
-    # "https://arxiv.org/pdf/1603.08155",
-    # "https://arxiv.org/pdf/1704.02685",
-    # "https://arxiv.org/pdf/1710.10547",
-    # "https://arxiv.org/pdf/1806.07538",
-    # "https://arxiv.org/pdf/1909.06342",
-    # "https://arxiv.org/pdf/2004.14545",
-
-    # # ## Computer Vision
-    # # "https://arxiv.org/pdf/1512.03385",
-    # # "https://arxiv.org/pdf/1409.1556",
-    # # "https://arxiv.org/pdf/1608.06993",
-    # # "https://arxiv.org/pdf/1709.01507",
-    # # "https://arxiv.org/pdf/1807.11164",
-    # # "https://arxiv.org/pdf/1512.00567",
-    # # "https://arxiv.org/pdf/1602.07261",
-    # # "https://arxiv.org/pdf/1704.04861",
-    # # "https://arxiv.org/pdf/1801.04381",
-    # # "https://arxiv.org/pdf/1905.03493",
-    # # "https://arxiv.org/pdf/1701.07875",
-    # # "https://arxiv.org/pdf/1802.05365",
-    # # "https://arxiv.org/pdf/1910.10683",
-    # # "https://arxiv.org/pdf/1506.02142",
-    # # "https://arxiv.org/pdf/1707.06347",
-    # # "https://arxiv.org/pdf/1804.02767",
-    # # "https://arxiv.org/pdf/2004.10934",
-    # # "https://arxiv.org/pdf/1703.06870",
-    # # "https://arxiv.org/pdf/1506.01497",
-    # # "https://arxiv.org/pdf/1311.2524",
-    # # "https://arxiv.org/pdf/1905.04899",
-    # # "https://arxiv.org/pdf/1911.09070",
-    # # "https://arxiv.org/pdf/1602.07360",
-    # # "https://arxiv.org/pdf/1807.11164",
-    # # "https://arxiv.org/pdf/2104.00298",
-    # # "https://arxiv.org/pdf/2010.11929",
-    # # "https://arxiv.org/pdf/1409.4842",
-    # # "https://arxiv.org/pdf/1406.2661",
-    # # "https://arxiv.org/pdf/1611.07004",
-    # # "https://arxiv.org/pdf/1703.10593",
-    # # "https://arxiv.org/pdf/1812.04948",
-    # # "https://arxiv.org/pdf/1912.04958",
-    # # "https://arxiv.org/pdf/1503.02531",
-    # # "https://arxiv.org/pdf/1612.03144",
-    # # "https://arxiv.org/pdf/1706.02677",
-    # # "https://arxiv.org/pdf/1312.5602",
-    # # "https://arxiv.org/pdf/1311.2901",
-    # # "https://arxiv.org/pdf/1412.3555",
-    # # "https://arxiv.org/pdf/1603.05027",
-    # # "https://arxiv.org/pdf/1710.09412",
-    # # "https://arxiv.org/pdf/1710.10196",
-
-    # ## Machine Learning
-    # "https://arxiv.org/pdf/1412.6980",
-    # "https://arxiv.org/pdf/1502.03167",
-    # "https://arxiv.org/pdf/1506.02629",
-    # "https://arxiv.org/pdf/1511.06434",
-    # "https://arxiv.org/pdf/1710.05941",
-    # "https://arxiv.org/pdf/1905.02244",
-    # "https://arxiv.org/pdf/1803.08494",
-    # "https://arxiv.org/pdf/1607.08022",
-    # "https://arxiv.org/pdf/1801.05134",
-    # "https://arxiv.org/pdf/1603.05027",
-    # "https://arxiv.org/pdf/2020.02311",
-    # "https://arxiv.org/pdf/1803.05407",
-    # "https://arxiv.org/pdf/1711.00165",
-    # "https://arxiv.org/pdf/1608.03983",
-    # "https://arxiv.org/pdf/1703.03400",
-    # "https://arxiv.org/pdf/1606.04080",
-    # "https://arxiv.org/pdf/1703.05175",
-    # "https://arxiv.org/pdf/1711.06025",
-    # "https://arxiv.org/pdf/1904.04232",
-    # "https://arxiv.org/pdf/1909.02729",
-    # "https://arxiv.org/pdf/2003.05003",
-    # "https://arxiv.org/pdf/2104.02638",
-    # "https://arxiv.org/pdf/1611.01578",
-    # "https://arxiv.org/pdf/1708.05344",
-    # "https://arxiv.org/pdf/1807.11626",
-    # "https://arxiv.org/pdf/1806.09055",
-    # "https://arxiv.org/pdf/1904.09925",
-    # "https://arxiv.org/pdf/2004.08955",
-    # "https://arxiv.org/pdf/1710.05468",
-    # "https://arxiv.org/pdf/1611.03530",
-    # "https://arxiv.org/pdf/1802.05296",
-    # "https://arxiv.org/pdf/1906.02629",
-    # "https://arxiv.org/pdf/2003.02395",
-    # "https://arxiv.org/pdf/1712.00864",
-    # "https://arxiv.org/pdf/1704.08863",
-    # "https://arxiv.org/pdf/1412.6572",
-    # "https://arxiv.org/pdf/1511.04508",
-    # "https://arxiv.org/pdf/1608.04644",
-    # "https://arxiv.org/pdf/1706.06083",
-    # "https://arxiv.org/pdf/1711.00851",
-    # "https://arxiv.org/pdf/1805.12152",
-    # "https://arxiv.org/pdf/1902.06705",
-    # "https://arxiv.org/pdf/1411.1792",
-    # "https://arxiv.org/pdf/1505.07818",
-    # "https://arxiv.org/pdf/1409.7495",
-    # "https://arxiv.org/pdf/1708.02637",
-    # "https://arxiv.org/pdf/1909.11740",
-    # "https://arxiv.org/pdf/2006.03654",
-
-    # ## Reinforcement Learning
-    # "https://arxiv.org/pdf/1312.4400",
-    # "https://arxiv.org/pdf/1509.02971",
-    # "https://arxiv.org/pdf/1707.06203",
-    # "https://arxiv.org/pdf/1602.01783",
-    # "https://arxiv.org/pdf/1511.05952",
-    # "https://arxiv.org/pdf/1511.09249",
-    # "https://arxiv.org/pdf/1509.06461",
-    # "https://arxiv.org/pdf/1802.09477",
-    # "https://arxiv.org/pdf/1707.02286",
-    # "https://arxiv.org/pdf/1710.02298",
-    # "https://arxiv.org/pdf/1712.01815",
-    # "https://arxiv.org/pdf/1912.06680",
-    # "https://arxiv.org/pdf/1706.05394",
-    # "https://arxiv.org/pdf/1703.01161",
-    # "https://arxiv.org/pdf/1509.06825",
-    # "https://arxiv.org/pdf/1707.02201",
-    # "https://arxiv.org/pdf/1703.06907",
-    # "https://arxiv.org/pdf/1802.09464",
-    # "https://arxiv.org/pdf/1706.10295",
-    # "https://arxiv.org/pdf/1910.07113",
-    # "https://arxiv.org/pdf/1706.02216",
-    # "https://arxiv.org/pdf/1710.10903",
-    # "https://arxiv.org/pdf/1609.02907",
-    # "https://arxiv.org/pdf/1511.05493",
-    # "https://arxiv.org/pdf/1312.6203",
-    # "https://arxiv.org/pdf/1803.01271",
-    # "https://arxiv.org/pdf/1901.02860",
-    # "https://arxiv.org/pdf/2001.04451",
-    # "https://arxiv.org/pdf/2004.05150",
-    # "https://arxiv.org/pdf/2009.06732",
-    # "https://arxiv.org/pdf/2403.14654",
-
-    # ## Generative Models
-    # "https://arxiv.org/pdf/1312.6114",
-    # "https://arxiv.org/pdf/1406.5298",
-    # "https://arxiv.org/pdf/1406.2661",
+    # "https://arxiv.org/pdf/2010.11929",
     # "https://arxiv.org/pdf/1409.4842",
-    # "https://arxiv.org/pdf/1511.06434",
-    # "https://arxiv.org/pdf/1701.00160",
-    # "https://arxiv.org/pdf/1704.00028",
-    # "https://arxiv.org/pdf/1805.08318",
-    # "https://arxiv.org/pdf/1809.11096",
-    # "https://arxiv.org/pdf/1710.10196",
+    # "https://arxiv.org/pdf/1406.2661",
     # "https://arxiv.org/pdf/1611.07004",
     # "https://arxiv.org/pdf/1703.10593",
     # "https://arxiv.org/pdf/1812.04948",
     # "https://arxiv.org/pdf/1912.04958",
-    # "https://arxiv.org/pdf/1609.04802",
-    # "https://arxiv.org/pdf/2006.11239",
-    # "https://arxiv.org/pdf/2102.09672",
-    # "https://arxiv.org/pdf/2105.05233",
-    # "https://arxiv.org/pdf/2112.10752",
-    # "https://arxiv.org/pdf/2204.06125",
-    # "https://arxiv.org/pdf/2301.11093",
-    # "https://arxiv.org/pdf/1706.03762",
-    # "https://arxiv.org/pdf/2005.14165",
-    # "https://arxiv.org/pdf/1810.04805",
-    # "https://arxiv.org/pdf/2203.02155",
-    # "https://arxiv.org/pdf/1909.11942",
-    # "https://arxiv.org/pdf/2106.09685",
-    # "https://arxiv.org/pdf/2204.02311",
-    # "https://arxiv.org/pdf/2301.00234",
-    # "https://arxiv.org/pdf/1609.03499",
-    # "https://arxiv.org/pdf/1703.10135",
-    # "https://arxiv.org/pdf/1712.05884",
-    # "https://arxiv.org/pdf/1807.03748",
+    # "https://arxiv.org/pdf/1503.02531",
+    # "https://arxiv.org/pdf/1612.03144",
+    # "https://arxiv.org/pdf/1706.02677",
     # "https://arxiv.org/pdf/1312.5602",
     # "https://arxiv.org/pdf/1311.2901",
     # "https://arxiv.org/pdf/1412.3555",
-    # "https://arxiv.org/pdf/1603.08155",
-    # "https://arxiv.org/pdf/1704.02685",
-    # "https://arxiv.org/pdf/1710.10547",
-    # "https://arxiv.org/pdf/1806.07538",
-    # "https://arxiv.org/pdf/1909.06342",
-    # "https://arxiv.org/pdf/2004.14545",
-    # "https://arxiv.org/pdf/1409.3215",
-    # "https://arxiv.org/pdf/1503.04069",
-    # "https://arxiv.org/pdf/1308.0850",
-    # "https://arxiv.org/pdf/1511.04508",
+    # "https://arxiv.org/pdf/1603.05027",
+    # "https://arxiv.org/pdf/1710.09412",
+    # "https://arxiv.org/pdf/1710.10196",
 
-    # ## Graph Neural Networks
-    # "https://arxiv.org/pdf/1609.02907",
-    # "https://arxiv.org/pdf/1710.10903",
-    # "https://arxiv.org/pdf/1706.02216",
-    # "https://arxiv.org/pdf/1511.05493",
-    # "https://arxiv.org/pdf/1312.6203",
-    # "https://arxiv.org/pdf/1803.03735",
-    # "https://arxiv.org/pdf/1905.02850",
-    # "https://arxiv.org/pdf/1905.12265",
-    # "https://arxiv.org/pdf/2005.00687",
-    # "https://arxiv.org/pdf/1612.00593",
-    # "https://arxiv.org/pdf/1612.03144",
-    # "https://arxiv.org/pdf/1706.02413",
-    # "https://arxiv.org/pdf/1904.08755",
-    # "https://arxiv.org/pdf/1711.06396",
-    # "https://arxiv.org/pdf/1812.07179",
-    # "https://arxiv.org/pdf/1710.05468",
-    # "https://arxiv.org/pdf/1611.03530",
-    # "https://arxiv.org/pdf/1802.05296",
-    # "https://arxiv.org/pdf/1906.02629",
-    # "https://arxiv.org/pdf/2003.02395",
-    # "https://arxiv.org/pdf/1712.00864",
-    # "https://arxiv.org/pdf/1704.08863",
-    # "https://arxiv.org/pdf/1703.03400",
-    # "https://arxiv.org/pdf/1606.04080",
-    # "https://arxiv.org/pdf/1703.05175",
-    # "https://arxiv.org/pdf/1711.06025",
-    # "https://arxiv.org/pdf/1904.04232",
-    # "https://arxiv.org/pdf/1909.02729",
-    # "https://arxiv.org/pdf/2003.05003",
-    # "https://arxiv.org/pdf/2104.02638",
-    # "https://arxiv.org/pdf/1411.4555",
-    # "https://arxiv.org/pdf/1502.03044",
-    # "https://arxiv.org/pdf/1707.07998",
-    # "https://arxiv.org/pdf/1908.02265",
-    # "https://arxiv.org/pdf/2001.00179",
-    # "https://arxiv.org/pdf/2103.15679",
-    # "https://arxiv.org/pdf/2204.14198",
-    # "https://arxiv.org/pdf/2301.12597",
-    # "https://arxiv.org/pdf/1412.6980",
-    # "https://arxiv.org/pdf/1502.03167",
-    # "https://arxiv.org/pdf/1506.02629",
-    # "https://arxiv.org/pdf/1607.08022",
-    # "https://arxiv.org/pdf/1803.08494",
-    # "https://arxiv.org/pdf/2020.02311",
-    # "https://arxiv.org/pdf/1803.05407",
-    # "https://arxiv.org/pdf/1711.00165",
-    # "https://arxiv.org/pdf/2411.19826",
+    ## Machine Learning
+    "https://arxiv.org/pdf/1412.6980",
+    "https://arxiv.org/pdf/1502.03167",
+    "https://arxiv.org/pdf/1506.02629",
+    "https://arxiv.org/pdf/1511.06434",
+    "https://arxiv.org/pdf/1710.05941",
+    "https://arxiv.org/pdf/1905.02244",
+    "https://arxiv.org/pdf/1803.08494",
+    "https://arxiv.org/pdf/1607.08022",
+    "https://arxiv.org/pdf/1801.05134",
+    "https://arxiv.org/pdf/1603.05027",
+    "https://arxiv.org/pdf/2020.02311",
+    "https://arxiv.org/pdf/1803.05407",
+    "https://arxiv.org/pdf/1711.00165",
+    "https://arxiv.org/pdf/1608.03983",
+    "https://arxiv.org/pdf/1703.03400",
+    "https://arxiv.org/pdf/1606.04080",
+    "https://arxiv.org/pdf/1703.05175",
+    "https://arxiv.org/pdf/1711.06025",
+    "https://arxiv.org/pdf/1904.04232",
+    "https://arxiv.org/pdf/1909.02729",
+    "https://arxiv.org/pdf/2003.05003",
+    "https://arxiv.org/pdf/2104.02638",
+    "https://arxiv.org/pdf/1611.01578",
+    "https://arxiv.org/pdf/1708.05344",
+    "https://arxiv.org/pdf/1807.11626",
+    "https://arxiv.org/pdf/1806.09055",
+    "https://arxiv.org/pdf/1904.09925",
+    "https://arxiv.org/pdf/2004.08955",
+    "https://arxiv.org/pdf/1710.05468",
+    "https://arxiv.org/pdf/1611.03530",
+    "https://arxiv.org/pdf/1802.05296",
+    "https://arxiv.org/pdf/1906.02629",
+    "https://arxiv.org/pdf/2003.02395",
+    "https://arxiv.org/pdf/1712.00864",
+    "https://arxiv.org/pdf/1704.08863",
+    "https://arxiv.org/pdf/1412.6572",
+    "https://arxiv.org/pdf/1511.04508",
+    "https://arxiv.org/pdf/1608.04644",
+    "https://arxiv.org/pdf/1706.06083",
+    "https://arxiv.org/pdf/1711.00851",
+    "https://arxiv.org/pdf/1805.12152",
+    "https://arxiv.org/pdf/1902.06705",
+    "https://arxiv.org/pdf/1411.1792",
+    "https://arxiv.org/pdf/1505.07818",
+    "https://arxiv.org/pdf/1409.7495",
+    "https://arxiv.org/pdf/1708.02637",
+    "https://arxiv.org/pdf/1909.11740",
+    "https://arxiv.org/pdf/2006.03654",
+
+    ## Reinforcement Learning
+    "https://arxiv.org/pdf/1312.4400",
+    "https://arxiv.org/pdf/1509.02971",
+    "https://arxiv.org/pdf/1707.06203",
+    "https://arxiv.org/pdf/1602.01783",
+    "https://arxiv.org/pdf/1511.05952",
+    "https://arxiv.org/pdf/1511.09249",
+    "https://arxiv.org/pdf/1509.06461",
+    "https://arxiv.org/pdf/1802.09477",
+    "https://arxiv.org/pdf/1707.02286",
+    "https://arxiv.org/pdf/1710.02298",
+    "https://arxiv.org/pdf/1712.01815",
+    "https://arxiv.org/pdf/1912.06680",
+    "https://arxiv.org/pdf/1706.05394",
+    "https://arxiv.org/pdf/1703.01161",
+    "https://arxiv.org/pdf/1509.06825",
+    "https://arxiv.org/pdf/1707.02201",
+    "https://arxiv.org/pdf/1703.06907",
+    "https://arxiv.org/pdf/1802.09464",
+    "https://arxiv.org/pdf/1706.10295",
+    "https://arxiv.org/pdf/1910.07113",
+    "https://arxiv.org/pdf/1706.02216",
+    "https://arxiv.org/pdf/1710.10903",
+    "https://arxiv.org/pdf/1609.02907",
+    "https://arxiv.org/pdf/1511.05493",
+    "https://arxiv.org/pdf/1312.6203",
+    "https://arxiv.org/pdf/1803.01271",
+    "https://arxiv.org/pdf/1901.02860",
+    "https://arxiv.org/pdf/2001.04451",
+    "https://arxiv.org/pdf/2004.05150",
+    "https://arxiv.org/pdf/2009.06732",
+    "https://arxiv.org/pdf/2403.14654",
+
+    ## Generative Models
+    "https://arxiv.org/pdf/1312.6114",
+    "https://arxiv.org/pdf/1406.5298",
+    "https://arxiv.org/pdf/1406.2661",
+    "https://arxiv.org/pdf/1409.4842",
+    "https://arxiv.org/pdf/1511.06434",
+    "https://arxiv.org/pdf/1701.00160",
+    "https://arxiv.org/pdf/1704.00028",
+    "https://arxiv.org/pdf/1805.08318",
+    "https://arxiv.org/pdf/1809.11096",
+    "https://arxiv.org/pdf/1710.10196",
+    "https://arxiv.org/pdf/1611.07004",
+    "https://arxiv.org/pdf/1703.10593",
+    "https://arxiv.org/pdf/1812.04948",
+    "https://arxiv.org/pdf/1912.04958",
+    "https://arxiv.org/pdf/1609.04802",
+    "https://arxiv.org/pdf/2006.11239",
+    "https://arxiv.org/pdf/2102.09672",
+    "https://arxiv.org/pdf/2105.05233",
+    "https://arxiv.org/pdf/2112.10752",
+    "https://arxiv.org/pdf/2204.06125",
+    "https://arxiv.org/pdf/2301.11093",
+    "https://arxiv.org/pdf/1706.03762",
+    "https://arxiv.org/pdf/2005.14165",
+    "https://arxiv.org/pdf/1810.04805",
+    "https://arxiv.org/pdf/2203.02155",
+    "https://arxiv.org/pdf/1909.11942",
+    "https://arxiv.org/pdf/2106.09685",
+    "https://arxiv.org/pdf/2204.02311",
+    "https://arxiv.org/pdf/2301.00234",
+    "https://arxiv.org/pdf/1609.03499",
+    "https://arxiv.org/pdf/1703.10135",
+    "https://arxiv.org/pdf/1712.05884",
+    "https://arxiv.org/pdf/1807.03748",
+    "https://arxiv.org/pdf/1312.5602",
+    "https://arxiv.org/pdf/1311.2901",
+    "https://arxiv.org/pdf/1412.3555",
+    "https://arxiv.org/pdf/1603.08155",
+    "https://arxiv.org/pdf/1704.02685",
+    "https://arxiv.org/pdf/1710.10547",
+    "https://arxiv.org/pdf/1806.07538",
+    "https://arxiv.org/pdf/1909.06342",
+    "https://arxiv.org/pdf/2004.14545",
+    "https://arxiv.org/pdf/1409.3215",
+    "https://arxiv.org/pdf/1503.04069",
+    "https://arxiv.org/pdf/1308.0850",
+    "https://arxiv.org/pdf/1511.04508",
+
+    ## Graph Neural Networks
+    "https://arxiv.org/pdf/1609.02907",
+    "https://arxiv.org/pdf/1710.10903",
+    "https://arxiv.org/pdf/1706.02216",
+    "https://arxiv.org/pdf/1511.05493",
+    "https://arxiv.org/pdf/1312.6203",
+    "https://arxiv.org/pdf/1803.03735",
+    "https://arxiv.org/pdf/1905.02850",
+    "https://arxiv.org/pdf/1905.12265",
+    "https://arxiv.org/pdf/2005.00687",
+    "https://arxiv.org/pdf/1612.00593",
+    "https://arxiv.org/pdf/1612.03144",
+    "https://arxiv.org/pdf/1706.02413",
+    "https://arxiv.org/pdf/1904.08755",
+    "https://arxiv.org/pdf/1711.06396",
+    "https://arxiv.org/pdf/1812.07179",
+    "https://arxiv.org/pdf/1710.05468",
+    "https://arxiv.org/pdf/1611.03530",
+    "https://arxiv.org/pdf/1802.05296",
+    "https://arxiv.org/pdf/1906.02629",
+    "https://arxiv.org/pdf/2003.02395",
+    "https://arxiv.org/pdf/1712.00864",
+    "https://arxiv.org/pdf/1704.08863",
+    "https://arxiv.org/pdf/1703.03400",
+    "https://arxiv.org/pdf/1606.04080",
+    "https://arxiv.org/pdf/1703.05175",
+    "https://arxiv.org/pdf/1711.06025",
+    "https://arxiv.org/pdf/1904.04232",
+    "https://arxiv.org/pdf/1909.02729",
+    "https://arxiv.org/pdf/2003.05003",
+    "https://arxiv.org/pdf/2104.02638",
+    "https://arxiv.org/pdf/1411.4555",
+    "https://arxiv.org/pdf/1502.03044",
+    "https://arxiv.org/pdf/1707.07998",
+    "https://arxiv.org/pdf/1908.02265",
+    "https://arxiv.org/pdf/2001.00179",
+    "https://arxiv.org/pdf/2103.15679",
+    "https://arxiv.org/pdf/2204.14198",
+    "https://arxiv.org/pdf/2301.12597",
+    "https://arxiv.org/pdf/1412.6980",
+    "https://arxiv.org/pdf/1502.03167",
+    "https://arxiv.org/pdf/1506.02629",
+    "https://arxiv.org/pdf/1607.08022",
+    "https://arxiv.org/pdf/1803.08494",
+    "https://arxiv.org/pdf/2020.02311",
+    "https://arxiv.org/pdf/1803.05407",
+    "https://arxiv.org/pdf/1711.00165",
+    "https://arxiv.org/pdf/2411.19826",
 
 
 
-    # ########## 과학기술 나무위키 #############
-    # "https://namu.wiki/w/%EA%B0%9C%EB%B0%A9%ED%98%95%20%EB%AC%B4%EC%84%A0%EC%A0%91%EC%86%8D%EB%A7%9D",  # 개방형 무선접속망
-    # "https://namu.wiki/w/%EA%B7%B8%EB%A6%AC%EB%93%9C%20%EC%BB%B4%ED%93%A8%ED%8C%85",  # 그리드 컴퓨팅
-    # "https://namu.wiki/w/%EB%82%B4%EC%9E%A5%EC%9B%B9%EC%84%9C%EB%B2%84",  # 내장웹서버
-    # "https://namu.wiki/w/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",  # 네트워크
-    # "https://namu.wiki/w/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EB%89%B4%EC%8A%A4",  # 네트워크 뉴스
-    # "https://namu.wiki/w/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%9D%B4%EC%A4%91%ED%99%94",  # 네트워크 이중화
-    # "https://namu.wiki/w/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%ED%8F%AC%ED%8A%B8",  # 네트워크 포트
-    # "https://namu.wiki/w/%EB%84%B7%EB%93%9C%EB%A1%A0%20%EC%97%94%EC%A7%84",  # 넷드론 엔진
-    # "https://namu.wiki/w/%EB%8C%80%EB%9F%89%EC%A0%91%EC%86%8D%EC%A0%9C%EC%96%B4",  # 대량접속제어
-    # "https://namu.wiki/w/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%84%BC%ED%84%B0",  # 데이터 센터
-    # "https://namu.wiki/w/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0%20%EA%B0%81",  # 데이터센터 각
-    # "https://namu.wiki/w/%EB%9D%BC%EC%9A%B0%ED%84%B0",  # 라우터
-    # "https://namu.wiki/w/%EB%A9%94%EC%8B%9C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",  # 메시 네트워크
-    # "https://namu.wiki/w/%EB%A9%94%EC%9D%BC%EB%A7%81%20%EB%A6%AC%EC%8A%A4%ED%8A%B8",  # 메일링 리스트
-    # "https://namu.wiki/w/%EB%AC%B8%EC%84%9C%EA%B0%80%EC%83%81%ED%99%94",  # 문서가상화
-    # "https://namu.wiki/w/%EB%B3%91%EB%A0%AC%20%EC%BB%B4%ED%93%A8%ED%8C%85",  # 병렬 컴퓨팅
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",  # 분류:네트워크
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B1%B0%EB%B6%80%20%EA%B3%B5%EA%B2%A9",  # 분류:서비스 거부 공격
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 분류:인공지능
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%ED%84%B0%EB%84%B7",  # 분류:인터넷
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%ED%8A%B8%EB%9D%BC%EB%84%B7",  # 분류:인트라넷
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%A0%84%EA%B8%B0%ED%86%B5%EC%8B%A0",  # 분류:전기통신
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%BB%B4%ED%93%A8%ED%84%B0",  # 분류:컴퓨터
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%86%B5%EC%8B%A0%20%EA%B8%B0%ED%98%B8",  # 분류:통신 기호
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%86%B5%EC%8B%A0%EB%A7%9D",  # 분류:통신망
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%8C%8C%EC%9D%BC%20%EA%B3%B5%EC%9C%A0",  # 분류:파일 공유
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C",  # 분류:프로토콜
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%94%84%EB%A1%9D%EC%8B%9C",  # 분류:프록시
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:P2P",  # 분류:P2P
-    # "https://namu.wiki/w/%EB%B6%84%EC%82%B0%20%EC%BB%B4%ED%93%A8%ED%8C%85",  # 분산 컴퓨팅
-    # "https://namu.wiki/w/%EB%B8%94%EB%9E%99%ED%99%80%20%EB%9D%BC%EC%9A%B0%ED%84%B0",  # 블랙홀 라우터
-    # "https://namu.wiki/w/%EC%82%BC%EC%84%B1SDS%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0",  # 삼성SDS 데이터센터
-    # "https://namu.wiki/w/%EC%84%9C%EB%B8%8C%EB%84%B7%20%EB%A7%88%EC%8A%A4%ED%81%AC",  # 서브넷 마스크
-    # "https://namu.wiki/w/%EC%86%8C%EC%BC%93",  # 소켓
-    # "https://namu.wiki/w/%EC%86%8C%EC%BC%93(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)",  # 소켓(네트워크)
-    # "https://namu.wiki/w/%EC%8A%A4%EC%9C%84%EC%B9%98(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)",  # 스위치(네트워크)
-    # "https://namu.wiki/w/%EC%8A%A4%ED%86%A4%20%EC%97%A3%EC%A7%80%20%EC%84%9C%EB%B2%84",  # 스톤 엣지 서버
-    # "https://namu.wiki/w/%EC%98%A4%EA%B0%80%EC%8A%A4",  # 오가스
-    # "https://namu.wiki/w/%EC%9C%A0%EB%8B%88%EB%B2%84%EC%84%A4%20%ED%94%8C%EB%9F%AC%EA%B7%B8%20%EC%95%A4%20%ED%94%8C%EB%A0%88%EC%9D%B4",  # 유니버설 플러그 앤 플레이
-    # "https://namu.wiki/w/%EC%9D%B8%ED%84%B0%EB%84%B7%20%EA%B3%B5%EC%9C%A0%EA%B8%B0/%EC%9E%90%EC%9E%91",  # 인터넷 공유기/자작
-    # "https://namu.wiki/w/%EC%9D%B8%ED%94%BC%EB%8B%88%EB%B0%B4%EB%93%9C",  # 인피니밴드
-    # "https://namu.wiki/w/%EC%9E%84%EC%8B%9C%20%EC%9D%B4%EB%A9%94%EC%9D%BC",  # 임시 이메일
-    # "https://namu.wiki/w/%EC%A0%84%EB%A0%A5%EC%84%A0%ED%86%B5%EC%8B%A0",  # 전력선통신
-    # "https://namu.wiki/w/%EC%A2%80%EB%B9%84%20PC",  # 좀비 PC
-    # "https://namu.wiki/w/%EC%A4%91%EA%B0%84%EC%9E%90%20%EA%B3%B5%EA%B2%A9",  # 중간자 공격
-    # "https://namu.wiki/w/%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0",  # 카카오 데이터센터
-    # "https://namu.wiki/w/%ED%86%B5%EC%8B%A0%EB%A7%9D",  # 통신망
-    # "https://namu.wiki/w/%ED%8B%80:%EB%B6%84%EB%A5%98%20%EC%84%A4%EB%AA%85",  # 틀:분류 설명
-    # "https://namu.wiki/w/%ED%8C%8C%EC%9D%BC:%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20%EB%89%B4%EC%8A%A4%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EB%A1%9C%EA%B3%A0.webp",  # 파일:애니메이션 뉴스 네트워크 로고.webp
-    # "https://namu.wiki/w/%ED%8C%A8%ED%82%B7",  # 패킷
-    # "https://namu.wiki/w/%ED%8F%AC%ED%86%A4%EC%97%94%EC%A7%84",  # 포톤엔진
-    # "https://namu.wiki/w/%ED%8F%B0%EA%B0%80%EB%94%94%EC%96%B8",  # 폰가디언
-    # "https://namu.wiki/w/%ED%99%98%ED%98%95%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",  # 환형 네트워크
-    # "https://namu.wiki/w/APN(Advanced%20unidirectional%20Private%20Network)",  # APN(Advanced unidirectional Private Network)
-    # "https://namu.wiki/w/ARP",  # ARP
-    # "https://namu.wiki/w/AirPlay",  # AirPlay
-    # "https://namu.wiki/w/Apache%20Bench",  # Apache Bench
-    # "https://namu.wiki/w/BGP",  # BGP
-    # "https://namu.wiki/w/CIDR",  # CIDR
-    # "https://namu.wiki/w/CORS",  # CORS
-    # "https://namu.wiki/w/CSMA/CA",  # CSMA/CA
-    # "https://namu.wiki/w/CSMA/CD",  # CSMA/CD
-    # "https://namu.wiki/w/DHCP",  # DHCP
-    # "https://namu.wiki/w/DMX(%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)",  # DMX(프로토콜)
-    # "https://namu.wiki/w/DNS",  # DNS
-    # "https://namu.wiki/w/Easy%20Coin",  # Easy Coin
-    # "https://namu.wiki/w/ExpressVPN",  # ExpressVPN
-    # "https://namu.wiki/w/GNS3",  # GNS3
-    # "https://namu.wiki/w/Galaxy%20Find%20Network",  # Galaxy Find Network
-    # "https://namu.wiki/w/ICMP",  # ICMP
-    # "https://namu.wiki/w/IGMP",  # IGMP
-    # "https://namu.wiki/w/IMAP",  # IMAP
-    # "https://namu.wiki/w/IVPN",  # IVPN
-    # "https://namu.wiki/w/Intel%20DPDK",  # Intel DPDK
-    # "https://namu.wiki/w/M2(MIX%26MATCH)",  # M2(MIX&MATCH)
-    # "https://namu.wiki/w/M2Live",  # M2Live
-    # "https://namu.wiki/w/Mullvad%20VPN",  # Mullvad VPN
-    # "https://namu.wiki/w/NAT",  # NAT
-    # "https://namu.wiki/w/NTP",  # NTP
-    # "https://namu.wiki/w/OONI",  # OONI
-    # "https://namu.wiki/w/OSI%20%EB%AA%A8%ED%98%95",  # OSI 모형
-    # "https://namu.wiki/w/OSPF",  # OSPF
-    # "https://namu.wiki/w/OpenFlow",  # OpenFlow
-    # "https://namu.wiki/w/Power%20over%20Ethernet",  # Power over Ethernet
-    # "https://namu.wiki/w/Proton",  # Proton
-    # "https://namu.wiki/w/Proton%20VPN",  # Proton VPN
-    # "https://namu.wiki/w/QoS",  # QoS
-    # "https://namu.wiki/w/REST",  # REST
-    # "https://namu.wiki/w/RSS",  # RSS
-    # "https://namu.wiki/w/SMTP",  # SMTP
-    # "https://namu.wiki/w/SNMP",  # SNMP
-    # "https://namu.wiki/w/Smart%20View",  # Smart View
-    # "https://namu.wiki/w/SmartThings%20Edge",  # SmartThings Edge
-    # "https://namu.wiki/w/SmartThings%20Find",  # SmartThings Find
-    # "https://namu.wiki/w/TCP",  # TCP
-    # "https://namu.wiki/w/TCP%20Optimizer",  # TCP Optimizer
-    # "https://namu.wiki/w/TMAC",  # TMAC
-    # "https://namu.wiki/w/UDP",  # UDP
-    # "https://namu.wiki/w/Uplink",  # Uplink
-    # "https://namu.wiki/w/WAF",  # WAF
-    # "https://namu.wiki/w/WPS",  # WPS
-    # "https://namu.wiki/w/Wake-on-LAN",  # Wake-on-LAN
-    # "https://namu.wiki/w/ZenMate%20Firewall",  # ZenMate Firewall
-    # "https://namu.wiki/w/%EA%B0%90%EC%B2%AD",  # 감청
-    # "https://namu.wiki/w/%EA%B3%B5%EB%8F%99%EC%9D%B8%EC%A6%9D%EC%84%9C/%EB%85%BC%EB%9E%80%20%EB%B0%8F%20%EC%82%AC%EA%B1%B4%EC%82%AC%EA%B3%A0",  # 공동인증서/논란 및 사건사고
-    # "https://namu.wiki/w/%EB%85%B9%EC%B7%A8%EC%82%AC",  # 녹취사
-    # "https://namu.wiki/w/%EB%8F%84%EC%B2%AD(%EB%B2%94%EC%A3%84)",  # 도청(범죄)
-    # "https://namu.wiki/w/%EB%94%94%EC%A7%80%ED%84%B8%20%EB%B0%9C%EC%9E%90%EA%B5%AD",  # 디지털 발자국
-    # "https://namu.wiki/w/%EB%B1%85%ED%81%AC%EC%95%84%EC%9D%B4%EB%94%94",  # 뱅크아이디
-    # "https://namu.wiki/w/%EB%B3%B4%EC%95%88%EC%B9%B4%EB%93%9C",  # 보안카드
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EA%B8%B0%EB%B0%80",  # 분류:기밀
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%AC%B8%EC%84%9C%20%EB%B3%B4%EC%95%88",  # 분류:문서 보안
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%B3%B4%EC%95%88",  # 분류:보안
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%95%94%ED%98%B8%ED%95%99",  # 분류:암호학
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%A0%95%EB%B3%B4%20%EB%B3%B4%EC%95%88",  # 분류:정보 보안
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C%20%EC%82%AC%EA%B1%B4",  # 분류:정보 유출 사건
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0",  # 분류:정보통신
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%B2%A9%EB%B3%B4",  # 분류:첩보
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%BB%B4%ED%93%A8%ED%84%B0%20%EB%B3%B4%EC%95%88",  # 분류:컴퓨터 보안
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C",  # 분류:프라이버시
-    # "https://namu.wiki/w/%EB%B9%84%EB%B0%80",  # 비밀
-    # "https://namu.wiki/w/%EC%82%AC%EC%9D%B4%EB%B2%84%20%EC%9C%84%ED%98%91%20%EC%9D%B8%ED%85%94%EB%A6%AC%EC%A0%84%EC%8A%A4",  # 사이버 위협 인텔리전스
-    # "https://namu.wiki/w/%EC%82%B0%EC%97%85%20%EB%B3%B4%EC%95%88",  # 산업 보안
-    # "https://namu.wiki/w/%EC%8A%A4%ED%8B%B8%EB%A6%AC%EC%96%B8",  # 스틸리언
-    # "https://namu.wiki/w/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8",  # 정보보호
-    # "https://namu.wiki/w/%ED%86%B5%EC%8B%A0%20%EB%B3%B4%EC%95%88",  # 통신 보안
-    # "https://namu.wiki/w/%ED%8B%80:%EB%B6%84%EB%A5%98%20%EC%84%A4%EB%AA%85",  # 틀:분류 설명
-    # "https://namu.wiki/w/CVE",  # CVE
-    # "https://namu.wiki/w/CVE-2017-0144",  # CVE-2017-0144
-    # "https://namu.wiki/w/DDPS",  # DDPS
-    # "https://namu.wiki/w/EDRON-VIEW%20%26%20I-VPM",  # EDRON-VIEW & I-VPM
-    # "https://namu.wiki/w/NetBlocks",  # NetBlocks
-    # "https://namu.wiki/w/OAuth",  # OAuth
-    # "https://namu.wiki/w/SCamera",  # SCamera
-    # "https://namu.wiki/w/onion",  # onion
-    #  "https://namu.wiki/w/%EA%B0%95%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 강인공지능
-    # "https://namu.wiki/w/%EA%B8%B0%EC%88%A0%EC%A0%81%20%ED%8A%B9%EC%9D%B4%EC%A0%90",  # 기술적 특이점
-    # "https://namu.wiki/w/%EA%B8%B0%ED%98%B8%EC%A3%BC%EC%9D%98%20AI",  # 기호주의 AI
-    # "https://namu.wiki/w/%EB%82%98%EB%AC%B4%EC%9C%84%ED%82%A4:%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 나무위키:프로젝트/인공지능
-    # "https://namu.wiki/w/%EB%89%B4%EB%A1%9C%EB%AA%A8%ED%94%BD%20%EC%BB%B4%ED%93%A8%ED%8C%85",  # 뉴로모픽 컴퓨팅
-    # "https://namu.wiki/w/%EB%8B%A4%ED%81%AC%EB%B2%84%ED%8A%B8",  # 다크버트
-    # "https://namu.wiki/w/%EB%8C%80%ED%99%94%ED%98%95%20%EC%9D%8C%EC%84%B1%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 대화형 음성 인공지능
-    # "https://namu.wiki/w/%EB%8D%B0%EC%9D%B4%EC%A7%80%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 데이지 인공지능
-    # "https://namu.wiki/w/%EB%94%94%EC%A7%80%ED%84%B8%EA%B5%90%EA%B3%BC%EC%84%9C",  # 디지털교과서
-    # "https://namu.wiki/w/%EB%A0%88%EB%93%9C%ED%8C%80%20%EC%B1%8C%EB%A6%B0%EC%A7%80",  # 레드팀 챌린지
-    # "https://namu.wiki/w/%EB%A1%9C%EB%B4%87%203%EC%9B%90%EC%B9%99",  # 로봇 3원칙
-    # "https://namu.wiki/w/%EB%A6%AC%EC%BF%A0",  # 리쿠
-    # "https://namu.wiki/w/%EB%A6%AC%EC%BF%A0(LiKU)",  # 리쿠(LiKU)
-    # "https://namu.wiki/w/%EB%A9%80%ED%8B%B0%EB%8F%84%EB%A9%94%EC%9D%B8%20%EA%B5%90%EC%B0%A8%EB%B6%84%EC%84%9D",  # 멀티도메인 교차분석
-    # "https://namu.wiki/w/%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%8B%AC%20%EB%AA%A8%EB%8D%B8",  # 멀티모달 모델
-    # "https://namu.wiki/w/%EB%AA%A8%EB%9D%BC%EB%B2%A1%EC%9D%98%20%EC%97%AD%EC%84%A4",  # 모라벡의 역설
-    # "https://namu.wiki/w/%EB%B4%87",  # 봇
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EA%B8%B0%EA%B3%84%20%ED%95%99%EC%8A%B5",  # 분류:기계 학습
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EA%B8%B0%EC%88%A0%EC%A0%81%20%ED%8A%B9%EC%9D%B4%EC%A0%90",  # 분류:기술적 특이점
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",  # 분류:네트워크
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%91%98%EB%9F%AC%EB%B3%B4%EA%B8%B0%20%ED%8B%80/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 분류:둘러보기 틀/인공지능
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%AC%B4%EC%9D%B8%20%EC%84%9C%EB%B9%84%EC%8A%A4",  # 분류:무인 서비스
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%88%98%ED%95%99",  # 분류:수학
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 분류:인공지능
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EA%B4%80%EB%A0%A8%20%EA%B8%B0%EC%97%85",  # 분류:인공지능 관련 기업
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8",  # 분류:인공지능 에이전트
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%9E%91%ED%92%88",  # 분류:인공지능 작품
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%ED%83%91%EC%9E%AC%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4",  # 분류:인공지능 탑재 디바이스
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",  # 분류:인공지능 프로그램
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%ED%95%99%EC%88%A0%EC%A7%80",  # 분류:인공지능 학술지
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/%EB%85%BC%EB%9E%80",  # 분류:인공지능/논란
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9E%90%EC%97%B0%EC%96%B4%20%EC%B2%98%EB%A6%AC",  # 분류:자연어 처리
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%ED%95%99",  # 분류:컴퓨터 공학
-    # "https://namu.wiki/w/%EB%B6%84%EB%A5%98:SF%20%EC%9A%A9%EC%96%B4",  # 분류:SF 용어
-    # "https://namu.wiki/w/%EB%B8%94%EB%9E%99%EB%B0%95%EC%8A%A4%20%EB%AC%B8%EC%A0%9C",  # 블랙박스 문제
-    # "https://namu.wiki/w/%EB%B9%84%EC%A0%84%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1%20%EC%9C%A0%EB%8B%9B",  # 비전 프로세싱 유닛
-    # "https://namu.wiki/w/%EB%B9%84%EC%A0%95%ED%98%95%20%EB%8D%B0%EC%9D%B4%ED%84%B0",  # 비정형 데이터
-    # "https://namu.wiki/w/%EC%82%AC%EB%A7%8C%EB%8B%A4(%EA%B7%B8%EB%85%80)",  # 사만다(그녀)
-    # "https://namu.wiki/w/%EC%82%AC%EC%9D%B4%EB%B2%84%20%EC%9C%84%ED%98%91%20%EC%9D%B8%ED%85%94%EB%A6%AC%EC%A0%84%EC%8A%A4",  # 사이버 위협 인텔리전스
-    # "https://namu.wiki/w/%EC%84%9C%ED%8F%AC%ED%8A%B8%20%EB%B2%A1%ED%84%B0%20%EB%A8%B8%EC%8B%A0",  # 서포트 벡터 머신
-    # "https://namu.wiki/w/%EC%84%A4%EB%AA%85%20%EA%B0%80%EB%8A%A5%ED%95%9C%20AI",  # 설명 가능한 AI
-    # "https://namu.wiki/w/%EC%86%8C%EB%B2%84%EB%A6%B0%20AI",  # 소버린 AI
-    # "https://namu.wiki/w/%EC%86%8C%EC%85%9C%EB%A1%9C%EB%B4%87%20%EB%A6%AC%EC%BF%A0",  # 소셜로봇 리쿠
-    # "https://namu.wiki/w/%EC%8A%A4%EB%85%B8%ED%94%BC",  # 스노피
-    # "https://namu.wiki/w/%EC%8A%A4%EC%BC%80%EC%9D%BC%20AI",  # 스케일 AI
-    # "https://namu.wiki/w/%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%8C%EB%A0%89%EC%82%AC",  # 아마존 알렉사
-    # "https://namu.wiki/w/%EC%95%84%EC%8B%A4%EB%A1%9C%EB%A7%88%20AI%20%EC%9B%90%EC%B9%99",  # 아실로마 AI 원칙
-    # "https://namu.wiki/w/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C",  # 안드로이드
-    # "https://namu.wiki/w/%EC%95%BD%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 약인공지능
-    # "https://namu.wiki/w/%EC%97%A3%EC%A7%80%20AI",  # 엣지 AI
-    # "https://namu.wiki/w/%EC%97%B0%EA%B2%B0%20%EA%B1%B4%EB%84%88%EB%9B%B0%EA%B8%B0",  # 연결 건너뛰기
-    # "https://namu.wiki/w/%EC%97%B0%EA%B2%B0%EC%A3%BC%EC%9D%98%20AI",  # 연결주의 AI
-    # "https://namu.wiki/w/%EC%98%88%EC%B8%A1%20%EC%B9%98%EC%95%88",  # 예측 치안
-    # "https://namu.wiki/w/%EC%98%A4%EB%A9%98%20%EC%B9%B4%EC%9D%B4%EB%A1%9C%EC%8A%A4",  # 오멘 카이로스
-    # "https://namu.wiki/w/%EC%98%A8%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 온디바이스 인공지능
-    # "https://namu.wiki/w/%EC%9C%A0%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98",  # 유전 알고리즘
-    # "https://namu.wiki/w/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%84%B7",  # 이미지넷
-    # "https://namu.wiki/w/%EC%9D%B4%EC%A7%84%20%EB%B6%84%EB%A5%98",  # 이진 분류
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%20%EC%9D%98%EC%8B%9D",  # 인공 의식
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%20%EC%9D%BC%EB%B0%98%20%EC%A7%80%EB%8A%A5",  # 인공 일반 지능
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 인공지능
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%B0%A9%EC%82%AC%EC%84%A0%20%EC%B9%98%EB%A3%8C",  # 인공지능 방사선 치료
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%B2%A4%EC%B9%98%EB%A7%88%ED%81%AC",  # 인공지능 벤치마크
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%95%84%ED%8B%B0%ED%8C%A9%ED%8A%B8",  # 인공지능 아티팩트
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%A0%95%EB%A0%AC",  # 인공지능 정렬
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%B9%A9",  # 인공지능 칩
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%ED%8A%B9%EC%9D%B4%EC%A0%90",  # 인공지능 특이점
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%ED%95%99%EA%B3%BC",  # 인공지능학과
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/%EC%97%AD%EC%82%AC",  # 인공지능/역사
-    # "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/%EC%B0%BD%EC%9E%91%EB%AC%BC",  # 인공지능/창작물
-    # "https://namu.wiki/w/%EC%9D%B8%ED%8D%BC%EB%9F%B0%EC%8A%A4",  # 인퍼런스
-    # "https://namu.wiki/w/%EC%9D%BC%EB%9D%BC%EC%9D%B4%EC%9E%90%20%ED%9A%A8%EA%B3%BC",  # 일라이자 효과
-    # "https://namu.wiki/w/%EC%9E%90%EB%8F%99%20%ED%88%AC%EA%B5%AC%20%ED%8C%90%EC%A0%95%20%EC%8B%9C%EC%8A%A4%ED%85%9C",  # 자동 투구 판정 시스템
-    # "https://namu.wiki/w/%EC%9E%90%EB%9E%8C%EC%9D%B4",  # 자람이
-    # "https://namu.wiki/w/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EC%9D%B4%EB%A1%A0",  # 정보처리이론
-    # "https://namu.wiki/w/%EC%A3%BD%EC%9D%80%20%EC%9D%B8%ED%84%B0%EB%84%B7%20%EC%9D%B4%EB%A1%A0",  # 죽은 인터넷 이론
-    # "https://namu.wiki/w/%EC%A4%91%EA%B5%AD%EC%96%B4%20%EB%B0%A9",  # 중국어 방
-    # "https://namu.wiki/w/%EC%A7%80%EB%8A%A5%EC%B2%B4",  # 지능체
-    # "https://namu.wiki/w/%EC%B1%97%EC%A7%80%ED%94%BC%ED%8B%B0(ChatGPT)%20%EB%A7%88%EC%9D%B4%EB%84%88%20%EA%B0%A4%EB%9F%AC%EB%A6%AC",  # 챗지피티(ChatGPT) 마이너 갤러리
-    # "https://namu.wiki/w/%EC%B4%88%EC%A7%80%EB%8A%A5",  # 초지능
-    # "https://namu.wiki/w/%EC%BB%AC%EB%9F%AC%EB%9D%BC%EC%9D%B4%EC%A0%9C%EC%9D%B4%EC%85%98",  # 컬러라이제이션
-    # "https://namu.wiki/w/%ED%82%AC%EC%9B%B9%EB%A7%A4%EC%B9%AD(KWM)",  # 킬웹매칭(KWM)
-    # "https://namu.wiki/w/%ED%8A%9C%EB%A7%81%20%ED%85%8C%EC%8A%A4%ED%8A%B8",  # 튜링 테스트
-    # "https://namu.wiki/w/%ED%8B%80:%EB%B6%84%EB%A5%98%20%EC%84%A4%EB%AA%85",  # 틀:분류 설명
-    # "https://namu.wiki/w/%ED%8B%80:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98%20%EB%8B%A8%EA%B3%84",  # 틀:인공지능의 단계
-    # "https://namu.wiki/w/%ED%8B%80:AIEDAP",  # 틀:AIEDAP
-    # "https://namu.wiki/w/%ED%8B%B0%EB%A7%A5%EC%8A%A4%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C",  # 티맥스클라우드
-    # "https://namu.wiki/w/%ED%8C%AC%EC%84%9C%EB%B8%8C",  # 팬서브
-    # "https://namu.wiki/w/%ED%94%84%EB%9E%AD%ED%81%AC%20%EB%A1%9C%EC%A0%A0%EB%B8%94%EB%9E%AB",  # 프랭크 로젠블랫
-    # "https://namu.wiki/w/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%95%B4%ED%82%B9",  # 프롬프트 해킹
-    # "https://namu.wiki/w/%ED%94%BC%EA%B7%9C%EC%96%B4(%EA%B8%B0%EC%97%85)",  # 피규어(기업)
-    # "https://namu.wiki/w/%ED%99%A9%EC%9D%98%20%EB%B2%95%EC%B9%99",  # 황의 법칙
-    # "https://namu.wiki/w/AI%20%EC%8B%A0%EC%95%BD%EA%B0%9C%EB%B0%9C",  # AI 신약개발
-    # "https://namu.wiki/w/AIoT",  # AIoT
-    # "https://namu.wiki/w/AutoML",  # AutoML
-    # "https://namu.wiki/w/Azure%20MAIA(Microsoft)",  # Azure MAIA(Microsoft)
-    # "https://namu.wiki/w/Elevenlabs",  # Elevenlabs
-    # "https://namu.wiki/w/Fint",  # Fint
-    # "https://namu.wiki/w/GNN",  # GNN
-    # "https://namu.wiki/w/GPT-5",  # GPT-5
-    # "https://namu.wiki/w/GPTeens",  # GPTeens
-    # "https://namu.wiki/w/Get%20GPT",  # Get GPT
-    # "https://namu.wiki/w/Hugging%20Face",  # Hugging Face
-    # "https://namu.wiki/w/Interstand",  # Interstand
-    # "https://namu.wiki/w/Mistral%20AI",  # Mistral AI
-    # "https://namu.wiki/w/OpenRouter",  # OpenRouter
-    # "https://namu.wiki/w/SAIP",  # SAIP
-    # "https://namu.wiki/w/TF-IDF",  # TF-IDF
-    # "https://namu.wiki/w/Transintelligence",  # Transintelligence
-    # "https://namu.wiki/w/snappi",  # snappi
-    #  "https://namu.wiki/w/%EA%B0%80%EC%86%8D%EB%8F%84",  # 가속도
-    # "https://namu.wiki/w/%EA%B0%80%EC%9A%B0%EC%8A%A4%20%EB%B2%95%EC%B9%99",  # 가우스 법칙
-    # "https://namu.wiki/w/%EA%B0%80%EC%9A%B0%EC%8A%A4%20%EB%B2%95%EC%B9%99/%EC%98%88%EC%A0%9C",  # 가우스 법칙/예제
-    # "https://namu.wiki/w/%EA%B0%80%EC%9D%B4%EA%B1%B0%20%EA%B3%84%EC%88%98%EA%B8%B0",  # 가이거 계수기
-    # "https://namu.wiki/w/%EA%B0%81%EC%86%8D%EB%8F%84",  # 각속도
-    # "https://namu.wiki/w/%EA%B0%84%EC%84%AD",  # 간섭
+    ########## 과학기술 나무위키 #############
+    "https://namu.wiki/w/%EA%B0%9C%EB%B0%A9%ED%98%95%20%EB%AC%B4%EC%84%A0%EC%A0%91%EC%86%8D%EB%A7%9D",  # 개방형 무선접속망
+    "https://namu.wiki/w/%EA%B7%B8%EB%A6%AC%EB%93%9C%20%EC%BB%B4%ED%93%A8%ED%8C%85",  # 그리드 컴퓨팅
+    "https://namu.wiki/w/%EB%82%B4%EC%9E%A5%EC%9B%B9%EC%84%9C%EB%B2%84",  # 내장웹서버
+    "https://namu.wiki/w/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",  # 네트워크
+    "https://namu.wiki/w/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EB%89%B4%EC%8A%A4",  # 네트워크 뉴스
+    "https://namu.wiki/w/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%9D%B4%EC%A4%91%ED%99%94",  # 네트워크 이중화
+    "https://namu.wiki/w/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%ED%8F%AC%ED%8A%B8",  # 네트워크 포트
+    "https://namu.wiki/w/%EB%84%B7%EB%93%9C%EB%A1%A0%20%EC%97%94%EC%A7%84",  # 넷드론 엔진
+    "https://namu.wiki/w/%EB%8C%80%EB%9F%89%EC%A0%91%EC%86%8D%EC%A0%9C%EC%96%B4",  # 대량접속제어
+    "https://namu.wiki/w/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%84%BC%ED%84%B0",  # 데이터 센터
+    "https://namu.wiki/w/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0%20%EA%B0%81",  # 데이터센터 각
+    "https://namu.wiki/w/%EB%9D%BC%EC%9A%B0%ED%84%B0",  # 라우터
+    "https://namu.wiki/w/%EB%A9%94%EC%8B%9C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",  # 메시 네트워크
+    "https://namu.wiki/w/%EB%A9%94%EC%9D%BC%EB%A7%81%20%EB%A6%AC%EC%8A%A4%ED%8A%B8",  # 메일링 리스트
+    "https://namu.wiki/w/%EB%AC%B8%EC%84%9C%EA%B0%80%EC%83%81%ED%99%94",  # 문서가상화
+    "https://namu.wiki/w/%EB%B3%91%EB%A0%AC%20%EC%BB%B4%ED%93%A8%ED%8C%85",  # 병렬 컴퓨팅
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",  # 분류:네트워크
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B1%B0%EB%B6%80%20%EA%B3%B5%EA%B2%A9",  # 분류:서비스 거부 공격
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 분류:인공지능
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%ED%84%B0%EB%84%B7",  # 분류:인터넷
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%ED%8A%B8%EB%9D%BC%EB%84%B7",  # 분류:인트라넷
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%A0%84%EA%B8%B0%ED%86%B5%EC%8B%A0",  # 분류:전기통신
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%BB%B4%ED%93%A8%ED%84%B0",  # 분류:컴퓨터
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%86%B5%EC%8B%A0%20%EA%B8%B0%ED%98%B8",  # 분류:통신 기호
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%86%B5%EC%8B%A0%EB%A7%9D",  # 분류:통신망
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%8C%8C%EC%9D%BC%20%EA%B3%B5%EC%9C%A0",  # 분류:파일 공유
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C",  # 분류:프로토콜
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%94%84%EB%A1%9D%EC%8B%9C",  # 분류:프록시
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:P2P",  # 분류:P2P
+    "https://namu.wiki/w/%EB%B6%84%EC%82%B0%20%EC%BB%B4%ED%93%A8%ED%8C%85",  # 분산 컴퓨팅
+    "https://namu.wiki/w/%EB%B8%94%EB%9E%99%ED%99%80%20%EB%9D%BC%EC%9A%B0%ED%84%B0",  # 블랙홀 라우터
+    "https://namu.wiki/w/%EC%82%BC%EC%84%B1SDS%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0",  # 삼성SDS 데이터센터
+    "https://namu.wiki/w/%EC%84%9C%EB%B8%8C%EB%84%B7%20%EB%A7%88%EC%8A%A4%ED%81%AC",  # 서브넷 마스크
+    "https://namu.wiki/w/%EC%86%8C%EC%BC%93",  # 소켓
+    "https://namu.wiki/w/%EC%86%8C%EC%BC%93(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)",  # 소켓(네트워크)
+    "https://namu.wiki/w/%EC%8A%A4%EC%9C%84%EC%B9%98(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)",  # 스위치(네트워크)
+    "https://namu.wiki/w/%EC%8A%A4%ED%86%A4%20%EC%97%A3%EC%A7%80%20%EC%84%9C%EB%B2%84",  # 스톤 엣지 서버
+    "https://namu.wiki/w/%EC%98%A4%EA%B0%80%EC%8A%A4",  # 오가스
+    "https://namu.wiki/w/%EC%9C%A0%EB%8B%88%EB%B2%84%EC%84%A4%20%ED%94%8C%EB%9F%AC%EA%B7%B8%20%EC%95%A4%20%ED%94%8C%EB%A0%88%EC%9D%B4",  # 유니버설 플러그 앤 플레이
+    "https://namu.wiki/w/%EC%9D%B8%ED%84%B0%EB%84%B7%20%EA%B3%B5%EC%9C%A0%EA%B8%B0/%EC%9E%90%EC%9E%91",  # 인터넷 공유기/자작
+    "https://namu.wiki/w/%EC%9D%B8%ED%94%BC%EB%8B%88%EB%B0%B4%EB%93%9C",  # 인피니밴드
+    "https://namu.wiki/w/%EC%9E%84%EC%8B%9C%20%EC%9D%B4%EB%A9%94%EC%9D%BC",  # 임시 이메일
+    "https://namu.wiki/w/%EC%A0%84%EB%A0%A5%EC%84%A0%ED%86%B5%EC%8B%A0",  # 전력선통신
+    "https://namu.wiki/w/%EC%A2%80%EB%B9%84%20PC",  # 좀비 PC
+    "https://namu.wiki/w/%EC%A4%91%EA%B0%84%EC%9E%90%20%EA%B3%B5%EA%B2%A9",  # 중간자 공격
+    "https://namu.wiki/w/%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0",  # 카카오 데이터센터
+    "https://namu.wiki/w/%ED%86%B5%EC%8B%A0%EB%A7%9D",  # 통신망
+    "https://namu.wiki/w/%ED%8B%80:%EB%B6%84%EB%A5%98%20%EC%84%A4%EB%AA%85",  # 틀:분류 설명
+    "https://namu.wiki/w/%ED%8C%8C%EC%9D%BC:%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20%EB%89%B4%EC%8A%A4%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EB%A1%9C%EA%B3%A0.webp",  # 파일:애니메이션 뉴스 네트워크 로고.webp
+    "https://namu.wiki/w/%ED%8C%A8%ED%82%B7",  # 패킷
+    "https://namu.wiki/w/%ED%8F%AC%ED%86%A4%EC%97%94%EC%A7%84",  # 포톤엔진
+    "https://namu.wiki/w/%ED%8F%B0%EA%B0%80%EB%94%94%EC%96%B8",  # 폰가디언
+    "https://namu.wiki/w/%ED%99%98%ED%98%95%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",  # 환형 네트워크
+    "https://namu.wiki/w/APN(Advanced%20unidirectional%20Private%20Network)",  # APN(Advanced unidirectional Private Network)
+    "https://namu.wiki/w/ARP",  # ARP
+    "https://namu.wiki/w/AirPlay",  # AirPlay
+    "https://namu.wiki/w/Apache%20Bench",  # Apache Bench
+    "https://namu.wiki/w/BGP",  # BGP
+    "https://namu.wiki/w/CIDR",  # CIDR
+    "https://namu.wiki/w/CORS",  # CORS
+    "https://namu.wiki/w/CSMA/CA",  # CSMA/CA
+    "https://namu.wiki/w/CSMA/CD",  # CSMA/CD
+    "https://namu.wiki/w/DHCP",  # DHCP
+    "https://namu.wiki/w/DMX(%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)",  # DMX(프로토콜)
+    "https://namu.wiki/w/DNS",  # DNS
+    "https://namu.wiki/w/Easy%20Coin",  # Easy Coin
+    "https://namu.wiki/w/ExpressVPN",  # ExpressVPN
+    "https://namu.wiki/w/GNS3",  # GNS3
+    "https://namu.wiki/w/Galaxy%20Find%20Network",  # Galaxy Find Network
+    "https://namu.wiki/w/ICMP",  # ICMP
+    "https://namu.wiki/w/IGMP",  # IGMP
+    "https://namu.wiki/w/IMAP",  # IMAP
+    "https://namu.wiki/w/IVPN",  # IVPN
+    "https://namu.wiki/w/Intel%20DPDK",  # Intel DPDK
+    "https://namu.wiki/w/M2(MIX%26MATCH)",  # M2(MIX&MATCH)
+    "https://namu.wiki/w/M2Live",  # M2Live
+    "https://namu.wiki/w/Mullvad%20VPN",  # Mullvad VPN
+    "https://namu.wiki/w/NAT",  # NAT
+    "https://namu.wiki/w/NTP",  # NTP
+    "https://namu.wiki/w/OONI",  # OONI
+    "https://namu.wiki/w/OSI%20%EB%AA%A8%ED%98%95",  # OSI 모형
+    "https://namu.wiki/w/OSPF",  # OSPF
+    "https://namu.wiki/w/OpenFlow",  # OpenFlow
+    "https://namu.wiki/w/Power%20over%20Ethernet",  # Power over Ethernet
+    "https://namu.wiki/w/Proton",  # Proton
+    "https://namu.wiki/w/Proton%20VPN",  # Proton VPN
+    "https://namu.wiki/w/QoS",  # QoS
+    "https://namu.wiki/w/REST",  # REST
+    "https://namu.wiki/w/RSS",  # RSS
+    "https://namu.wiki/w/SMTP",  # SMTP
+    "https://namu.wiki/w/SNMP",  # SNMP
+    "https://namu.wiki/w/Smart%20View",  # Smart View
+    "https://namu.wiki/w/SmartThings%20Edge",  # SmartThings Edge
+    "https://namu.wiki/w/SmartThings%20Find",  # SmartThings Find
+    "https://namu.wiki/w/TCP",  # TCP
+    "https://namu.wiki/w/TCP%20Optimizer",  # TCP Optimizer
+    "https://namu.wiki/w/TMAC",  # TMAC
+    "https://namu.wiki/w/UDP",  # UDP
+    "https://namu.wiki/w/Uplink",  # Uplink
+    "https://namu.wiki/w/WAF",  # WAF
+    "https://namu.wiki/w/WPS",  # WPS
+    "https://namu.wiki/w/Wake-on-LAN",  # Wake-on-LAN
+    "https://namu.wiki/w/ZenMate%20Firewall",  # ZenMate Firewall
+    "https://namu.wiki/w/%EA%B0%90%EC%B2%AD",  # 감청
+    "https://namu.wiki/w/%EA%B3%B5%EB%8F%99%EC%9D%B8%EC%A6%9D%EC%84%9C/%EB%85%BC%EB%9E%80%20%EB%B0%8F%20%EC%82%AC%EA%B1%B4%EC%82%AC%EA%B3%A0",  # 공동인증서/논란 및 사건사고
+    "https://namu.wiki/w/%EB%85%B9%EC%B7%A8%EC%82%AC",  # 녹취사
+    "https://namu.wiki/w/%EB%8F%84%EC%B2%AD(%EB%B2%94%EC%A3%84)",  # 도청(범죄)
+    "https://namu.wiki/w/%EB%94%94%EC%A7%80%ED%84%B8%20%EB%B0%9C%EC%9E%90%EA%B5%AD",  # 디지털 발자국
+    "https://namu.wiki/w/%EB%B1%85%ED%81%AC%EC%95%84%EC%9D%B4%EB%94%94",  # 뱅크아이디
+    "https://namu.wiki/w/%EB%B3%B4%EC%95%88%EC%B9%B4%EB%93%9C",  # 보안카드
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EA%B8%B0%EB%B0%80",  # 분류:기밀
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%AC%B8%EC%84%9C%20%EB%B3%B4%EC%95%88",  # 분류:문서 보안
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%B3%B4%EC%95%88",  # 분류:보안
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%95%94%ED%98%B8%ED%95%99",  # 분류:암호학
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%A0%95%EB%B3%B4%20%EB%B3%B4%EC%95%88",  # 분류:정보 보안
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C%20%EC%82%AC%EA%B1%B4",  # 분류:정보 유출 사건
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0",  # 분류:정보통신
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%B2%A9%EB%B3%B4",  # 분류:첩보
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%BB%B4%ED%93%A8%ED%84%B0%20%EB%B3%B4%EC%95%88",  # 분류:컴퓨터 보안
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C",  # 분류:프라이버시
+    "https://namu.wiki/w/%EB%B9%84%EB%B0%80",  # 비밀
+    "https://namu.wiki/w/%EC%82%AC%EC%9D%B4%EB%B2%84%20%EC%9C%84%ED%98%91%20%EC%9D%B8%ED%85%94%EB%A6%AC%EC%A0%84%EC%8A%A4",  # 사이버 위협 인텔리전스
+    "https://namu.wiki/w/%EC%82%B0%EC%97%85%20%EB%B3%B4%EC%95%88",  # 산업 보안
+    "https://namu.wiki/w/%EC%8A%A4%ED%8B%B8%EB%A6%AC%EC%96%B8",  # 스틸리언
+    "https://namu.wiki/w/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8",  # 정보보호
+    "https://namu.wiki/w/%ED%86%B5%EC%8B%A0%20%EB%B3%B4%EC%95%88",  # 통신 보안
+    "https://namu.wiki/w/%ED%8B%80:%EB%B6%84%EB%A5%98%20%EC%84%A4%EB%AA%85",  # 틀:분류 설명
+    "https://namu.wiki/w/CVE",  # CVE
+    "https://namu.wiki/w/CVE-2017-0144",  # CVE-2017-0144
+    "https://namu.wiki/w/DDPS",  # DDPS
+    "https://namu.wiki/w/EDRON-VIEW%20%26%20I-VPM",  # EDRON-VIEW & I-VPM
+    "https://namu.wiki/w/NetBlocks",  # NetBlocks
+    "https://namu.wiki/w/OAuth",  # OAuth
+    "https://namu.wiki/w/SCamera",  # SCamera
+    "https://namu.wiki/w/onion",  # onion
+     "https://namu.wiki/w/%EA%B0%95%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 강인공지능
+    "https://namu.wiki/w/%EA%B8%B0%EC%88%A0%EC%A0%81%20%ED%8A%B9%EC%9D%B4%EC%A0%90",  # 기술적 특이점
+    "https://namu.wiki/w/%EA%B8%B0%ED%98%B8%EC%A3%BC%EC%9D%98%20AI",  # 기호주의 AI
+    "https://namu.wiki/w/%EB%82%98%EB%AC%B4%EC%9C%84%ED%82%A4:%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 나무위키:프로젝트/인공지능
+    "https://namu.wiki/w/%EB%89%B4%EB%A1%9C%EB%AA%A8%ED%94%BD%20%EC%BB%B4%ED%93%A8%ED%8C%85",  # 뉴로모픽 컴퓨팅
+    "https://namu.wiki/w/%EB%8B%A4%ED%81%AC%EB%B2%84%ED%8A%B8",  # 다크버트
+    "https://namu.wiki/w/%EB%8C%80%ED%99%94%ED%98%95%20%EC%9D%8C%EC%84%B1%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 대화형 음성 인공지능
+    "https://namu.wiki/w/%EB%8D%B0%EC%9D%B4%EC%A7%80%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 데이지 인공지능
+    "https://namu.wiki/w/%EB%94%94%EC%A7%80%ED%84%B8%EA%B5%90%EA%B3%BC%EC%84%9C",  # 디지털교과서
+    "https://namu.wiki/w/%EB%A0%88%EB%93%9C%ED%8C%80%20%EC%B1%8C%EB%A6%B0%EC%A7%80",  # 레드팀 챌린지
+    "https://namu.wiki/w/%EB%A1%9C%EB%B4%87%203%EC%9B%90%EC%B9%99",  # 로봇 3원칙
+    "https://namu.wiki/w/%EB%A6%AC%EC%BF%A0",  # 리쿠
+    "https://namu.wiki/w/%EB%A6%AC%EC%BF%A0(LiKU)",  # 리쿠(LiKU)
+    "https://namu.wiki/w/%EB%A9%80%ED%8B%B0%EB%8F%84%EB%A9%94%EC%9D%B8%20%EA%B5%90%EC%B0%A8%EB%B6%84%EC%84%9D",  # 멀티도메인 교차분석
+    "https://namu.wiki/w/%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%8B%AC%20%EB%AA%A8%EB%8D%B8",  # 멀티모달 모델
+    "https://namu.wiki/w/%EB%AA%A8%EB%9D%BC%EB%B2%A1%EC%9D%98%20%EC%97%AD%EC%84%A4",  # 모라벡의 역설
+    "https://namu.wiki/w/%EB%B4%87",  # 봇
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EA%B8%B0%EA%B3%84%20%ED%95%99%EC%8A%B5",  # 분류:기계 학습
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EA%B8%B0%EC%88%A0%EC%A0%81%20%ED%8A%B9%EC%9D%B4%EC%A0%90",  # 분류:기술적 특이점
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",  # 분류:네트워크
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%91%98%EB%9F%AC%EB%B3%B4%EA%B8%B0%20%ED%8B%80/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 분류:둘러보기 틀/인공지능
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%AC%B4%EC%9D%B8%20%EC%84%9C%EB%B9%84%EC%8A%A4",  # 분류:무인 서비스
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%88%98%ED%95%99",  # 분류:수학
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 분류:인공지능
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EA%B4%80%EB%A0%A8%20%EA%B8%B0%EC%97%85",  # 분류:인공지능 관련 기업
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8",  # 분류:인공지능 에이전트
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%9E%91%ED%92%88",  # 분류:인공지능 작품
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%ED%83%91%EC%9E%AC%20%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4",  # 분류:인공지능 탑재 디바이스
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",  # 분류:인공지능 프로그램
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%ED%95%99%EC%88%A0%EC%A7%80",  # 분류:인공지능 학술지
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/%EB%85%BC%EB%9E%80",  # 분류:인공지능/논란
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%9E%90%EC%97%B0%EC%96%B4%20%EC%B2%98%EB%A6%AC",  # 분류:자연어 처리
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%ED%95%99",  # 분류:컴퓨터 공학
+    "https://namu.wiki/w/%EB%B6%84%EB%A5%98:SF%20%EC%9A%A9%EC%96%B4",  # 분류:SF 용어
+    "https://namu.wiki/w/%EB%B8%94%EB%9E%99%EB%B0%95%EC%8A%A4%20%EB%AC%B8%EC%A0%9C",  # 블랙박스 문제
+    "https://namu.wiki/w/%EB%B9%84%EC%A0%84%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1%20%EC%9C%A0%EB%8B%9B",  # 비전 프로세싱 유닛
+    "https://namu.wiki/w/%EB%B9%84%EC%A0%95%ED%98%95%20%EB%8D%B0%EC%9D%B4%ED%84%B0",  # 비정형 데이터
+    "https://namu.wiki/w/%EC%82%AC%EB%A7%8C%EB%8B%A4(%EA%B7%B8%EB%85%80)",  # 사만다(그녀)
+    "https://namu.wiki/w/%EC%82%AC%EC%9D%B4%EB%B2%84%20%EC%9C%84%ED%98%91%20%EC%9D%B8%ED%85%94%EB%A6%AC%EC%A0%84%EC%8A%A4",  # 사이버 위협 인텔리전스
+    "https://namu.wiki/w/%EC%84%9C%ED%8F%AC%ED%8A%B8%20%EB%B2%A1%ED%84%B0%20%EB%A8%B8%EC%8B%A0",  # 서포트 벡터 머신
+    "https://namu.wiki/w/%EC%84%A4%EB%AA%85%20%EA%B0%80%EB%8A%A5%ED%95%9C%20AI",  # 설명 가능한 AI
+    "https://namu.wiki/w/%EC%86%8C%EB%B2%84%EB%A6%B0%20AI",  # 소버린 AI
+    "https://namu.wiki/w/%EC%86%8C%EC%85%9C%EB%A1%9C%EB%B4%87%20%EB%A6%AC%EC%BF%A0",  # 소셜로봇 리쿠
+    "https://namu.wiki/w/%EC%8A%A4%EB%85%B8%ED%94%BC",  # 스노피
+    "https://namu.wiki/w/%EC%8A%A4%EC%BC%80%EC%9D%BC%20AI",  # 스케일 AI
+    "https://namu.wiki/w/%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%8C%EB%A0%89%EC%82%AC",  # 아마존 알렉사
+    "https://namu.wiki/w/%EC%95%84%EC%8B%A4%EB%A1%9C%EB%A7%88%20AI%20%EC%9B%90%EC%B9%99",  # 아실로마 AI 원칙
+    "https://namu.wiki/w/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C",  # 안드로이드
+    "https://namu.wiki/w/%EC%95%BD%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 약인공지능
+    "https://namu.wiki/w/%EC%97%A3%EC%A7%80%20AI",  # 엣지 AI
+    "https://namu.wiki/w/%EC%97%B0%EA%B2%B0%20%EA%B1%B4%EB%84%88%EB%9B%B0%EA%B8%B0",  # 연결 건너뛰기
+    "https://namu.wiki/w/%EC%97%B0%EA%B2%B0%EC%A3%BC%EC%9D%98%20AI",  # 연결주의 AI
+    "https://namu.wiki/w/%EC%98%88%EC%B8%A1%20%EC%B9%98%EC%95%88",  # 예측 치안
+    "https://namu.wiki/w/%EC%98%A4%EB%A9%98%20%EC%B9%B4%EC%9D%B4%EB%A1%9C%EC%8A%A4",  # 오멘 카이로스
+    "https://namu.wiki/w/%EC%98%A8%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 온디바이스 인공지능
+    "https://namu.wiki/w/%EC%9C%A0%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98",  # 유전 알고리즘
+    "https://namu.wiki/w/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%84%B7",  # 이미지넷
+    "https://namu.wiki/w/%EC%9D%B4%EC%A7%84%20%EB%B6%84%EB%A5%98",  # 이진 분류
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%20%EC%9D%98%EC%8B%9D",  # 인공 의식
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%20%EC%9D%BC%EB%B0%98%20%EC%A7%80%EB%8A%A5",  # 인공 일반 지능
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",  # 인공지능
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%B0%A9%EC%82%AC%EC%84%A0%20%EC%B9%98%EB%A3%8C",  # 인공지능 방사선 치료
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%B2%A4%EC%B9%98%EB%A7%88%ED%81%AC",  # 인공지능 벤치마크
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%95%84%ED%8B%B0%ED%8C%A9%ED%8A%B8",  # 인공지능 아티팩트
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%A0%95%EB%A0%AC",  # 인공지능 정렬
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%B9%A9",  # 인공지능 칩
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%ED%8A%B9%EC%9D%B4%EC%A0%90",  # 인공지능 특이점
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%ED%95%99%EA%B3%BC",  # 인공지능학과
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/%EC%97%AD%EC%82%AC",  # 인공지능/역사
+    "https://namu.wiki/w/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/%EC%B0%BD%EC%9E%91%EB%AC%BC",  # 인공지능/창작물
+    "https://namu.wiki/w/%EC%9D%B8%ED%8D%BC%EB%9F%B0%EC%8A%A4",  # 인퍼런스
+    "https://namu.wiki/w/%EC%9D%BC%EB%9D%BC%EC%9D%B4%EC%9E%90%20%ED%9A%A8%EA%B3%BC",  # 일라이자 효과
+    "https://namu.wiki/w/%EC%9E%90%EB%8F%99%20%ED%88%AC%EA%B5%AC%20%ED%8C%90%EC%A0%95%20%EC%8B%9C%EC%8A%A4%ED%85%9C",  # 자동 투구 판정 시스템
+    "https://namu.wiki/w/%EC%9E%90%EB%9E%8C%EC%9D%B4",  # 자람이
+    "https://namu.wiki/w/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EC%9D%B4%EB%A1%A0",  # 정보처리이론
+    "https://namu.wiki/w/%EC%A3%BD%EC%9D%80%20%EC%9D%B8%ED%84%B0%EB%84%B7%20%EC%9D%B4%EB%A1%A0",  # 죽은 인터넷 이론
+    "https://namu.wiki/w/%EC%A4%91%EA%B5%AD%EC%96%B4%20%EB%B0%A9",  # 중국어 방
+    "https://namu.wiki/w/%EC%A7%80%EB%8A%A5%EC%B2%B4",  # 지능체
+    "https://namu.wiki/w/%EC%B1%97%EC%A7%80%ED%94%BC%ED%8B%B0(ChatGPT)%20%EB%A7%88%EC%9D%B4%EB%84%88%20%EA%B0%A4%EB%9F%AC%EB%A6%AC",  # 챗지피티(ChatGPT) 마이너 갤러리
+    "https://namu.wiki/w/%EC%B4%88%EC%A7%80%EB%8A%A5",  # 초지능
+    "https://namu.wiki/w/%EC%BB%AC%EB%9F%AC%EB%9D%BC%EC%9D%B4%EC%A0%9C%EC%9D%B4%EC%85%98",  # 컬러라이제이션
+    "https://namu.wiki/w/%ED%82%AC%EC%9B%B9%EB%A7%A4%EC%B9%AD(KWM)",  # 킬웹매칭(KWM)
+    "https://namu.wiki/w/%ED%8A%9C%EB%A7%81%20%ED%85%8C%EC%8A%A4%ED%8A%B8",  # 튜링 테스트
+    "https://namu.wiki/w/%ED%8B%80:%EB%B6%84%EB%A5%98%20%EC%84%A4%EB%AA%85",  # 틀:분류 설명
+    "https://namu.wiki/w/%ED%8B%80:%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98%20%EB%8B%A8%EA%B3%84",  # 틀:인공지능의 단계
+    "https://namu.wiki/w/%ED%8B%80:AIEDAP",  # 틀:AIEDAP
+    "https://namu.wiki/w/%ED%8B%B0%EB%A7%A5%EC%8A%A4%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C",  # 티맥스클라우드
+    "https://namu.wiki/w/%ED%8C%AC%EC%84%9C%EB%B8%8C",  # 팬서브
+    "https://namu.wiki/w/%ED%94%84%EB%9E%AD%ED%81%AC%20%EB%A1%9C%EC%A0%A0%EB%B8%94%EB%9E%AB",  # 프랭크 로젠블랫
+    "https://namu.wiki/w/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%ED%95%B4%ED%82%B9",  # 프롬프트 해킹
+    "https://namu.wiki/w/%ED%94%BC%EA%B7%9C%EC%96%B4(%EA%B8%B0%EC%97%85)",  # 피규어(기업)
+    "https://namu.wiki/w/%ED%99%A9%EC%9D%98%20%EB%B2%95%EC%B9%99",  # 황의 법칙
+    "https://namu.wiki/w/AI%20%EC%8B%A0%EC%95%BD%EA%B0%9C%EB%B0%9C",  # AI 신약개발
+    "https://namu.wiki/w/AIoT",  # AIoT
+    "https://namu.wiki/w/AutoML",  # AutoML
+    "https://namu.wiki/w/Azure%20MAIA(Microsoft)",  # Azure MAIA(Microsoft)
+    "https://namu.wiki/w/Elevenlabs",  # Elevenlabs
+    "https://namu.wiki/w/Fint",  # Fint
+    "https://namu.wiki/w/GNN",  # GNN
+    "https://namu.wiki/w/GPT-5",  # GPT-5
+    "https://namu.wiki/w/GPTeens",  # GPTeens
+    "https://namu.wiki/w/Get%20GPT",  # Get GPT
+    "https://namu.wiki/w/Hugging%20Face",  # Hugging Face
+    "https://namu.wiki/w/Interstand",  # Interstand
+    "https://namu.wiki/w/Mistral%20AI",  # Mistral AI
+    "https://namu.wiki/w/OpenRouter",  # OpenRouter
+    "https://namu.wiki/w/SAIP",  # SAIP
+    "https://namu.wiki/w/TF-IDF",  # TF-IDF
+    "https://namu.wiki/w/Transintelligence",  # Transintelligence
+    "https://namu.wiki/w/snappi",  # snappi
+     "https://namu.wiki/w/%EA%B0%80%EC%86%8D%EB%8F%84",  # 가속도
+    "https://namu.wiki/w/%EA%B0%80%EC%9A%B0%EC%8A%A4%20%EB%B2%95%EC%B9%99",  # 가우스 법칙
+    "https://namu.wiki/w/%EA%B0%80%EC%9A%B0%EC%8A%A4%20%EB%B2%95%EC%B9%99/%EC%98%88%EC%A0%9C",  # 가우스 법칙/예제
+    "https://namu.wiki/w/%EA%B0%80%EC%9D%B4%EA%B1%B0%20%EA%B3%84%EC%88%98%EA%B8%B0",  # 가이거 계수기
+    "https://namu.wiki/w/%EA%B0%81%EC%86%8D%EB%8F%84",  # 각속도
+    "https://namu.wiki/w/%EA%B0%84%EC%84%AD",  # 간섭
     # "https://namu.wiki/w/%EA%B0%84%EC%84%AD%EA%B3%84",  # 간섭계
     # # "https://namu.wiki/w/%EA%B0%88%EB%A6%B4%EB%A0%88%EC%9D%B4%20%EB%B3%80%ED%99%98",  # 갈릴레이 변환
     # # "https://namu.wiki/w/%EA%B0%95%EC%84%B1",  # 강성
