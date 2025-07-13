@@ -1,0 +1,1365 @@
+{
+  "benchmark_info": {
+    "total_items": 51,
+    "successful_evaluations": 51,
+    "success_rate": 100.0,
+    "timestamp": "2025-07-13T15:33:37.470033",
+    "input_file": "rag_benchmark/data/conversation_example_50.json"
+  },
+  "statistics": {
+    "original_average_scores": {
+      "information_accuracy": 4.0,
+      "conversational_flow": 4.019607843137255,
+      "character_consistency": 4.019607843137255,
+      "content_completeness": 3.5098039215686274,
+      "overall_quality": 3.843137254901961
+    },
+    "rag_modified_average_scores": {
+      "information_accuracy": 3.9607843137254903,
+      "conversational_flow": 3.7450980392156863,
+      "character_consistency": 3.6666666666666665,
+      "content_completeness": 3.607843137254902,
+      "overall_quality": 3.803921568627451
+    },
+    "winner_statistics": {
+      "original_wins": 18,
+      "rag_modified_wins": 29,
+      "ties": 4
+    },
+    "rag_improvement": {
+      "information_accuracy": -0.039215686274509665,
+      "conversational_flow": -0.27450980392156854,
+      "character_consistency": -0.3529411764705883,
+      "content_completeness": 0.0980392156862746,
+      "overall_quality": -0.03921568627451011
+    }
+  },
+  "detailed_results": [
+    {
+      "original_scores": {
+        "information_accuracy": 3,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 뉴스 기사의 핵심 내용을 더 정확하게 반영하고 있으며, 정보의 완전성 측면에서도 더 우수합니다. 또한, 대화의 흐름과 캐릭터의 일관성도 스크립트 A와 비슷한 수준으로 유지되고 있어 전반적인 품질이 더 높습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002380800",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:30:58.063784",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 0,
+        "conversational_flow": 0,
+        "character_consistency": 0,
+        "content_completeness": 0,
+        "overall_quality": 0
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 뉴스 기사의 주요 내용을 대화 형식으로 잘 전달하고 있으며, 캐릭터 간의 대화가 자연스럽고 일관성 있게 진행됩니다. 정보의 정확성도 높고, 클라우드 WAN의 중요성과 협력의 의미를 잘 전달하고 있습니다. 스크립트 A는 제공되지 않았으므로 평가할 수 없습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001083658",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:01.352311",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B more accurately reflects the information from the news article, particularly in terms of the expected developments and the challenges faced. The conversational flow is smoother and more coherent, and the characters maintain consistent personalities throughout the dialogue. Additionally, Script B covers the key points of the news article more comprehensively, resulting in a higher overall quality."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/032/0003376418",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:04.809142",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 정보의 정확성과 대화의 자연스러움에서 더 높은 점수를 받았습니다. 특히, 자기장과 산소의 상관관계에 대한 설명이 명확하고, 외계생명체 탐색에 대한 언급도 잘 반영되어 있습니다. Script A도 전반적으로 잘 작성되었으나, 정보의 완전성에서 약간 부족한 부분이 있어 Script B가 더 우수하다고 판단됩니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/584/0000032848",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:08.877376",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 4,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 정보의 정확성과 완전성 면에서 더 뛰어났으며, 대화의 흐름도 자연스러웠습니다. Script A도 잘 작성되었지만, 일부 정보의 정확성과 완전성에서 약간 부족한 부분이 있었습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/029/0002963245",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:14.855253",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 정보의 정확성과 대화의 자연스러움에서 더 높은 점수를 받았습니다. 특히, 스크립트 B는 뉴스 기사의 내용을 더 정확하게 반영하고 있으며, 대화의 흐름이 자연스럽고 일관성이 있습니다. 또한, 캐릭터의 일관성도 잘 유지되고 있어 전반적인 품질이 더 높습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002374597",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:17.121457",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 0,
+        "conversational_flow": 0,
+        "character_consistency": 0,
+        "content_completeness": 0,
+        "overall_quality": 0
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B는 뉴스 기사의 주요 내용을 잘 반영하고 있으며, 대화가 자연스럽고 캐릭터의 일관성도 유지되고 있다. 정보의 정확성과 대화의 흐름이 좋으며, AI와 데이터의 중요성에 대한 핵심 내용을 다루고 있다. 반면 Script A는 제공되지 않아 평가할 수 없다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/009/0005505864",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:19.873196",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "tie",
+        "reasoning": "두 스크립트 모두 뉴스 기사의 핵심 내용을 잘 반영하고 있으며, 대화의 흐름도 자연스럽고 일관성 있게 진행됩니다. 캐릭터의 말투와 성격도 일관되게 유지되고 있으며, 정보의 정확성과 내용의 완전성 측면에서도 큰 차이가 없습니다. 따라서 두 스크립트의 전반적인 품질은 동등하다고 판단됩니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/138/0002200038",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:24.022241",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "tie",
+        "reasoning": "두 스크립트 모두 정보의 정확성과 대화의 자연스러움에서 높은 점수를 받았습니다. 스크립트 A는 뉴스 기사의 핵심 내용을 잘 반영하고 있으며, 스크립트 B는 대화의 자연스러움과 캐릭터의 일관성에서 더 높은 점수를 받았습니다. 전반적으로 두 스크립트 모두 높은 품질을 유지하고 있어 우열을 가리기 어렵습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/011/0004486003",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:27.029236",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 5,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "tie",
+        "reasoning": "Script A는 정보의 정확성과 내용 완전성에서 높은 점수를 받았으며, 뉴스 기사의 핵심 내용을 잘 반영하고 있습니다. 반면 Script B는 대화의 자연스러움과 캐릭터의 일관성에서 더 높은 점수를 받았으며, 대화가 더 생동감 있게 진행됩니다. 두 스크립트 모두 각각의 강점이 있어 전반적인 품질에서 동등한 수준으로 평가됩니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/003/0013247123",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:31.215603",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 A는 정보의 정확성과 내용의 완전성 측면에서 더 높은 점수를 받았습니다. 뉴스 기사의 핵심 내용을 더 잘 반영하고 있으며, SK텔레콤의 대응 방안에 대한 설명이 더 구체적입니다. 반면 스크립트 B는 대화의 자연스러움과 캐릭터의 일관성에서 높은 점수를 받았지만, 정보의 정확성과 내용의 완전성에서 약간 부족했습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/011/0004486003",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:34.622038",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 정보의 정확성과 대화의 자연스러움에서 더 높은 점수를 받았습니다. 특히, 메타의 내부적인 성능 우려와 다른 AI 회사들의 상황을 더 명확하게 설명하고 있어 정보의 정확성과 내용 완전성에서 우수합니다. 또한, 대화의 흐름이 자연스럽고 일관성이 있어 전반적인 품질이 더 높습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001077840",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:37.681185",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 5,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 정보의 정확성과 대화의 자연스러움, 캐릭터의 일관성에서 모두 높은 점수를 받았습니다. 특히 대화의 흐름이 매우 자연스럽고, 뉴스 기사의 핵심 내용을 잘 반영하고 있습니다. 스크립트 A도 전반적으로 잘 작성되었으나, 대화의 자연스러움과 캐릭터 일관성에서 약간의 개선 여지가 있습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001081288",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:41.134376",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 3,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 뉴스 기사의 핵심 내용을 더 잘 반영하고 있으며, 정보의 정확성과 완전성 측면에서 더 높은 점수를 받았습니다. 또한, 대화의 자연스러움과 캐릭터의 일관성도 스크립트 A와 비슷한 수준으로 유지되었습니다. 따라서 전반적인 품질에서 스크립트 B가 더 우수하다고 판단됩니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002379262",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:43.925149",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 3,
+        "character_consistency": 3,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 0,
+        "conversational_flow": 0,
+        "character_consistency": 0,
+        "content_completeness": 0,
+        "overall_quality": 0
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script A는 뉴스 기사에서 다룬 메모리 표준과 웨어러블 기기에 대한 정보를 어느 정도 반영하고 있으며, 대화의 흐름도 자연스럽게 이어진다. 반면, Script B는 제공되지 않아 평가할 수 없다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002377228",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:46.167852",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 0,
+        "conversational_flow": 0,
+        "character_consistency": 0,
+        "content_completeness": 0,
+        "overall_quality": 0
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 A는 뉴스 기사의 핵심 내용을 비교적 정확하게 반영하고 있으며, 대화의 흐름도 자연스럽고 캐릭터의 일관성도 유지되고 있다. 반면 스크립트 B는 제공되지 않아 평가할 수 없다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001085488",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:48.859851",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B provides a more detailed and accurate reflection of the news article, particularly in explaining the synthetic biology aspect and the practical applications of the artificial virus. The conversational flow is smoother, and the characters maintain a consistent and engaging tone throughout. Script A, while accurate, lacks some depth in explaining the scientific process and its implications, making Script B the superior choice."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001087172",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:51.138161",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 5,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 3,
+        "character_consistency": 3,
+        "content_completeness": 4,
+        "overall_quality": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 A는 정보의 정확성과 내용의 완전성에서 높은 점수를 받았습니다. 대화의 흐름도 자연스럽고 캐릭터의 일관성도 잘 유지되었습니다. 반면 스크립트 B는 대화의 자연스러움과 캐릭터 일관성에서 다소 부족한 점이 있어 전반적인 품질에서 A보다 낮은 평가를 받았습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/032/0003376280",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:54.419133",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 뉴스 기사의 핵심 내용을 더 정확하고 완전하게 반영하고 있으며, 대화의 흐름이 자연스럽고 캐릭터의 일관성도 잘 유지되고 있습니다. 반면 스크립트 A는 정보의 정확성과 완전성에서 약간 부족한 면이 있습니다. 따라서 전반적인 품질 면에서 스크립트 B가 더 우수합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/020/0003635222",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:31:58.845540",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 1,
+        "conversational_flow": 3,
+        "character_consistency": 3,
+        "content_completeness": 1,
+        "overall_quality": 2
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 A는 뉴스 기사의 핵심 내용을 잘 반영하고 있으며, 대화의 흐름과 캐릭터의 일관성도 유지되고 있습니다. 반면, 스크립트 B는 뉴스 기사와 관련 없는 내용을 다루고 있어 정보의 정확성과 내용의 완전성이 부족합니다. 따라서 전반적인 품질 면에서 스크립트 A가 우수합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002376976?sid=105",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:03.109532",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 3,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 0,
+        "conversational_flow": 0,
+        "character_consistency": 0,
+        "content_completeness": 0,
+        "overall_quality": 0
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script A는 뉴스 기사의 핵심 내용을 일부 반영하고 있으며, 대화가 자연스럽고 캐릭터의 일관성도 유지되고 있다. 그러나 정보의 정확성과 내용의 완전성 측면에서 더 많은 세부사항이 필요하다. Script B는 제공되지 않았으므로 평가할 수 없다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001085477",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:06.134760",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script A는 뉴스 기사의 핵심 내용을 더 정확하고 완전하게 반영하고 있으며, 특히 '플라잉 키스' 기전과 임상 절차에 대한 설명이 잘 되어 있다. Script B는 대화가 자연스럽고 캐릭터의 일관성이 뛰어나지만, 정보의 정확성과 완전성 면에서 약간 부족하다. 따라서 전반적인 품질에서 Script A가 우수하다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/015/0005132816",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:09.403219",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 뉴스 기사의 내용을 더 정확하게 반영하고 있으며, 특히 렉라자와 리브리반트 병용 요법의 임상 결과와 대화제약의 리포락셀에 대한 정보를 더 완전하게 전달하고 있습니다. 또한, JIN-A04에 대한 설명도 명확하게 제공되어 있어 정보의 완전성과 정확성이 높습니다. 대화의 자연스러움과 캐릭터의 일관성도 두 스크립트 모두 비슷한 수준이지만, 전반적인 품질 면에서 스크립트 B가 더 우수합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/015/0005139248",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:13.602348",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B provides a more comprehensive and accurate reflection of the news article's content, including key details about the Skyrider X6's capabilities and the regulatory challenges it faces. The conversational flow is smooth and the characters maintain consistent personalities throughout the dialogue. Script A, while engaging, lacks some details and has a slightly less natural flow, making Script B the superior choice overall."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002378281",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:16.771611",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B provides a more complete and accurate reflection of the news article, covering key points such as the acquisition of Poshmark and the strategic intent behind Naver's actions. While Script A has a slightly more natural conversational flow and character consistency, Script B excels in information accuracy and content completeness, making it the better script overall."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/277/0005593942",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:20.188159",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B provides a more accurate and complete reflection of the news article, capturing the essence of the innovation and its applications. The conversational flow is smoother, and the character consistency is maintained throughout. Script A, while good, lacks some details and the flow is slightly less natural."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/658/0000110345",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:23.146585",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 정보의 정확성과 대화의 자연스러움, 캐릭터의 일관성, 내용의 완전성 모두에서 높은 점수를 받았습니다. 특히, 대화의 흐름이 매우 자연스럽고 일관성이 있으며, 뉴스 기사의 핵심 내용을 충분히 다루고 있습니다. 반면, 스크립트 A는 대화의 자연스러움과 캐릭터의 일관성에서 약간 부족한 면이 있어 전반적인 품질에서 B보다 낮은 점수를 받았습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/030/0003317666",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:26.616488",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 3,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 뉴스 기사의 내용을 더 정확하게 반영하고 있으며, 대화의 흐름이 자연스럽고 일관성이 있습니다. 또한, 보안 인력 문제의 근본 원인과 해결책에 대한 논의가 더 완전하게 다루어져 있습니다. 반면, 스크립트 A는 정보의 정확성과 내용의 완전성에서 다소 부족한 면이 있습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/029/0002963307",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:31.437879",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 정보의 정확성과 내용의 완전성에서 더 높은 점수를 받았습니다. 특히 변이에 덜 영향을 받는 부위를 공략했다는 점을 명확히 언급하여 정보의 정확성을 높였습니다. 두 스크립트 모두 대화의 자연스러움과 캐릭터 일관성에서 비슷한 점수를 받았으나, Script B가 뉴스 기사의 핵심 내용을 더 잘 반영하고 있어 전반적인 품질에서 우위를 점했습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001087168",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:34.864901",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 정보의 정확성과 완전성 면에서 더 뛰어났으며, 대화의 흐름과 캐릭터의 일관성도 더 자연스러웠습니다. 특히, 개인정보 보호와 관련된 중요한 질문을 다루어 정보의 깊이와 완전성을 높였습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/015/0005132938",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:37.289008",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B는 정보의 정확성과 대화의 자연스러움, 캐릭터의 일관성, 내용의 완전성 모두에서 높은 점수를 받았습니다. 특히, 대화가 자연스럽고 일관되게 흘러가며, 뉴스 기사의 핵심 내용을 충분히 다루고 있습니다. 반면, Script A는 정보의 정확성은 높지만, 대화의 흐름과 캐릭터의 일관성에서 약간의 개선 여지가 있습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001077733",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:40.437136",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 정보의 정확성과 대화의 자연스러움에서 더 높은 점수를 받았습니다. 특히, 머리카락 굵기의 전극에 대한 구체적인 언급이 있어 정보의 정확성이 높았고, 대화의 흐름이 자연스러웠습니다. 또한, 기술 발전의 빠른 속도와 관련된 대화가 더 명확하게 드러나 있어 내용의 완전성에서도 우위를 점했습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/422/0000749733",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:43.898945",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 디지털 휴먼의 자율성과 감정 인식 기술에 대한 설명이 더 명확하고, 윤리적 가이드라인에 대한 언급도 정확하게 포함되어 있어 정보의 정확성과 완전성이 높습니다. 또한 대화의 흐름이 자연스럽고 일관성이 있어 전반적인 품질이 더 우수합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/hotissue/article/033/0000048707?type=series&cid=2002178",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:46.675734",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 5,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 박쥐 오가노이드의 정의와 연구의 중요성을 명확하게 설명하고 있으며, 2차원 플랫폼의 장점도 잘 전달하고 있습니다. 정보의 정확성과 내용의 완전성 면에서 스크립트 A보다 우수합니다. 반면, 스크립트 A는 대화의 자연스러움에서 높은 점수를 받았지만, 정보의 정확성과 내용의 완전성에서 약간 부족합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002374508",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:50.884638",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 3,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B provides more accurate and complete information from the news article, particularly in terms of the academic background and policy involvement of the candidate. The conversational flow is slightly more natural, and the character consistency is maintained well in both scripts. Overall, Script B offers a more comprehensive and coherent representation of the news article."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/293/0000068923",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:53.874355",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 0,
+        "conversational_flow": 0,
+        "character_consistency": 0,
+        "content_completeness": 0,
+        "overall_quality": 0
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 1,
+        "conversational_flow": 3,
+        "character_consistency": 4,
+        "content_completeness": 1,
+        "overall_quality": 2
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 A는 뉴스 기사의 내용을 반영하지 못했지만, 대화의 흐름과 캐릭터의 일관성 면에서 어느 정도 점수를 받을 수 있었습니다. 반면, 스크립트 B는 제공되지 않았기 때문에 평가할 수 없었습니다."
+      },
+      "metadata": {
+        "url": "https://www.economist.com/science-and-technology/2025/06/24/scientists-have-created-healthy-fertile-mice-with-two-fathers",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:56.709344",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 1,
+        "conversational_flow": 1,
+        "character_consistency": 1,
+        "content_completeness": 1,
+        "overall_quality": 1
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 1,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 1,
+        "overall_quality": 3
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 대화의 자연스러움과 캐릭터의 일관성 면에서 더 높은 점수를 받았습니다. 그러나 두 스크립트 모두 정보의 정확성과 내용의 완전성 면에서는 낮은 점수를 받았습니다. 이는 뉴스 기사의 내용을 알 수 없기 때문입니다. 전반적으로 스크립트 B가 더 나은 품질을 보여주었습니다."
+      },
+      "metadata": {
+        "url": "https://www.sciencetimes.co.kr/nscvrg/view/menu/251?searchCategory=223&nscvrgSn=260495",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:32:58.834375",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 정보의 정확성과 대화의 자연스러움에서 더 높은 점수를 받았습니다. 캐릭터의 일관성도 잘 유지되었으며, 전체적으로 대화의 품질이 높았습니다. 스크립트 A도 좋은 점수를 받았지만, 대화의 흐름과 캐릭터의 일관성에서 약간의 개선이 필요합니다."
+      },
+      "metadata": {
+        "url": "https://naver.me/FdoN1ioQ",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:02.022768",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 3,
+        "character_consistency": 3,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 정보의 정확성과 완전성 면에서 더 우수하며, 대화의 흐름과 캐릭터의 일관성도 더 잘 유지되고 있습니다. 스크립트 A는 정보의 정확성은 높지만, 대화의 자연스러움과 캐릭터의 일관성에서 다소 부족합니다. 따라서 전반적인 품질 면에서 스크립트 B가 더 뛰어납니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/030/0003321776",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:05.686102",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 3,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 뉴스 기사의 핵심 내용을 더 잘 반영하고 있으며, 정보의 정확성과 완전성 측면에서 더 높은 점수를 받았습니다. 또한, 대화의 흐름과 캐릭터의 일관성도 스크립트 A와 비슷한 수준으로 유지되었습니다. 따라서 전반적인 품질에서 스크립트 B가 더 우수하다고 판단됩니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001085675",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:08.044927",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 4,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 뉴스 기사의 정보를 더 정확하게 반영하고 있으며, 대화의 흐름이 자연스럽고 일관성이 있습니다. 또한, 기사의 핵심 내용을 더 완전하게 다루고 있어 전반적인 품질이 높습니다. 반면, 스크립트 A는 정보의 정확성과 내용의 완전성에서 약간 부족한 면이 있습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002380899",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:10.674409",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 정보의 정확성과 완전성 면에서 더 뛰어났으며, 대화의 흐름과 캐릭터의 일관성도 더 자연스러웠습니다. 특히, 이황화몰리브덴의 장점과 상용화 가능성에 대한 설명이 명확하고 구체적이었습니다. 반면, 스크립트 A는 정보 전달이 다소 간략하고, 대화의 흐름이 약간 덜 자연스러웠습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/016/0002479264",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:13.085166",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 정보의 정확성과 대화의 자연스러움에서 더 높은 점수를 받았습니다. 특히, 양자 연결의 개념과 한국의 기술 선점의 중요성을 명확하게 설명하고 있어 정보의 정확성과 내용의 완전성에서 우수합니다. 스크립트 A도 잘 작성되었지만, 일부 정보의 세부사항이 부족하여 B에 비해 점수가 낮습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/hotissue/article/011/0004486411?type=series&cid=2002925",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:16.023196",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 3,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B는 정보의 정확성과 내용의 완전성 측면에서 더 높은 점수를 받았습니다. Script B는 뉴스 기사의 핵심 내용을 더 잘 반영하고 있으며, 변이 바이러스에 대한 대응 전략을 명확하게 설명하고 있습니다. 또한 대화의 흐름이 더 자연스럽고 일관성이 있습니다. 반면 Script A는 대화의 흐름이 다소 어색하고, 정보의 정확성에서 약간 부족한 부분이 있습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001087168",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:18.890609",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 정보의 정확성과 대화의 자연스러움에서 더 높은 점수를 받았습니다. 특히, 일본 제2공장의 지연 이유와 미국 투자에 대한 설명이 명확하게 전달되었습니다. 또한, 캐릭터의 일관성도 잘 유지되어 전체적으로 더 높은 품질을 보여주었습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/001/0015489193",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:21.492876",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 3,
+        "character_consistency": 3,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B has a slightly better conversational flow and character consistency compared to Script A. Both scripts accurately reflect the information from the news article, but Script B presents it in a more engaging and coherent manner."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001085504",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:23.653871",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B는 정보의 정확성과 대화의 자연스러움에서 더 높은 점수를 받았습니다. 특히, LFP 배터리의 용도와 전환 계획에 대한 설명이 명확하고, 대화가 자연스럽게 이어지며 캐릭터의 일관성도 잘 유지되었습니다. Script A도 전반적으로 잘 작성되었으나, Script B가 더 명확하고 자연스러운 대화를 제공했습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/hotissue/article/138/0002197697?type=series&cid=1089789",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:26.453908",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B는 아르시아 몬스의 특징과 NASA 오디세이의 임무에 대한 정보를 더 정확하고 완전하게 전달하고 있습니다. 또한, 화산의 모양과 오디세이 궤도선의 지속적인 활동에 대한 언급이 있어 정보의 깊이가 더 풍부합니다. 두 스크립트 모두 대화의 자연스러움과 캐릭터의 일관성은 잘 유지하고 있지만, Script B가 정보의 정확성과 완전성 면에서 더 우수합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002378259",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:29.494850",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 0,
+        "conversational_flow": 0,
+        "character_consistency": 0,
+        "content_completeness": 0,
+        "overall_quality": 0
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 A는 뉴스 기사의 주요 내용을 잘 반영하고 있으며, 대화가 자연스럽고 캐릭터의 일관성도 유지되고 있다. 반면, 스크립트 B는 제공되지 않아 평가할 수 없다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/hotissue/article/138/0002198584?type=series&cid=1089789",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:31.854294",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B provides a more accurate and detailed explanation of the MITRE ATT&CK framework and the significance of the ATP test. The conversational flow is smoother, and the characters maintain consistent personalities throughout the dialogue. Additionally, Script B covers more key aspects of the news article, such as the importance of blocking ransomware early, making it more informative and complete."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002374667",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:35.034552",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "tie",
+        "reasoning": "두 스크립트 모두 정보의 정확성과 대화의 자연스러움, 캐릭터의 일관성에서 비슷한 수준을 보여주고 있습니다. 또한, 두 스크립트 모두 뉴스 기사의 핵심 내용을 충분히 다루지 못한 점에서 동일한 점수를 받았습니다. 전반적인 품질에서도 큰 차이가 없어 동점으로 평가되었습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/030/0003321698",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:33:37.469932",
+        "original_was_script_a": true
+      }
+    }
+  ]
+}

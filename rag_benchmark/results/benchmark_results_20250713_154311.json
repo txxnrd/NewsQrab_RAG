@@ -1,0 +1,1365 @@
+{
+  "benchmark_info": {
+    "total_items": 51,
+    "successful_evaluations": 51,
+    "success_rate": 100.0,
+    "timestamp": "2025-07-13T15:46:16.256655",
+    "input_file": "rag_benchmark/data/conversation_example_50.json"
+  },
+  "statistics": {
+    "original_average_scores": {
+      "information_richness": 3.3333333333333335,
+      "factual_accuracy": 4.137254901960785,
+      "contextual_relevance": 3.411764705882353,
+      "educational_value": 3.3529411764705883,
+      "overall_informativeness": 3.3529411764705883
+    },
+    "rag_modified_average_scores": {
+      "information_richness": 3.2549019607843137,
+      "factual_accuracy": 3.980392156862745,
+      "contextual_relevance": 3.3333333333333335,
+      "educational_value": 3.2745098039215685,
+      "overall_informativeness": 3.2745098039215685
+    },
+    "winner_statistics": {
+      "original_wins": 18,
+      "rag_modified_wins": 26,
+      "ties": 7
+    },
+    "rag_improvement": {
+      "information_richness": -0.07843137254901977,
+      "factual_accuracy": -0.15686274509803955,
+      "contextual_relevance": -0.07843137254901933,
+      "educational_value": -0.07843137254901977,
+      "overall_informativeness": -0.07843137254901977
+    }
+  },
+  "detailed_results": [
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 메타의 '초지능 연구소' 설립 이유와 다니엘 그로스의 배경에 대해 더 풍부한 정보를 제공하며, 저커버그의 인재 영입 전략에 대한 맥락도 잘 설명하고 있습니다. 따라서 정보의 풍부함과 교육적 가치 면에서 더 높은 점수를 받았습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002380800",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:14.015036",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 0,
+        "factual_accuracy": 0,
+        "contextual_relevance": 0,
+        "educational_value": 0,
+        "overall_informativeness": 0
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 A는 제공되지 않았으므로 평가할 수 없습니다. 스크립트 B는 구글 클라우드와 LG CNS의 협력에 대한 정보를 제공하며, 클라우드 WAN의 중요성과 그로 인한 국내 기업의 글로벌 경쟁력 향상에 대한 맥락을 잘 반영하고 있습니다. 다만, 정보의 깊이나 교육적 가치는 다소 제한적입니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001083658",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:16.945201",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 뉴스 기사의 주요 정보를 더 명확하게 전달하고 있으며, 정보의 정확성과 맥락 적절성 면에서 더 우수합니다. 또한, 교육적 가치와 전반적 정보성 측면에서도 더 높은 점수를 받았습니다. 스크립트 A는 다소 비공식적이고 감정적인 표현이 많아 정보 전달력이 떨어집니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/032/0003376418",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:19.971344",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B는 정보의 풍부함과 맥락 적절성에서 더 높은 점수를 받았습니다. Script B는 자기장과 산소의 상관관계에 대한 설명과 외계생명체 탐색에 대한 언급을 더 명확하게 전달하고 있습니다. 또한, 교육적 가치와 전반적 정보성 측면에서도 더 높은 점수를 받았습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/584/0000032848",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:22.296171",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 변이 바이러스에 대한 효과와 실험 결과에 대한 정보를 더 명확하게 전달하고 있으며, 대화의 흐름이 더 자연스럽고 교육적 가치가 높습니다. Script A는 정보가 다소 단편적이며, 맥락 전달이 부족합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/029/0002963245",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:24.756901",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 5,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 A는 뉴스 기사의 다양한 정보를 더 풍부하게 포함하고 있으며, 맥락과 배경 정보도 잘 반영되어 있다. 또한, 교육적 가치와 전반적인 정보성 면에서도 더 높은 점수를 받았다. 스크립트 B는 정보 전달이 간결하지만, 정보의 깊이나 맥락 적절성에서 다소 부족하다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002374597",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:27.550964",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 1,
+        "factual_accuracy": 1,
+        "contextual_relevance": 1,
+        "educational_value": 1,
+        "overall_informativeness": 1
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 A는 스케일AI와 메타의 투자 관계, 알렉산더 왕의 성공 요인, AI와 데이터의 관계에 대한 정보를 제공하여 정보의 풍부함과 정확성이 더 높다. 반면 스크립트 B는 제공되지 않아 평가할 수 없다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/009/0005505864",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:30.232532",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 5,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script A는 뉴스 기사의 다양한 정보를 더 풍부하게 포함하고 있으며, AI 기술 악용에 대한 구체적인 예시를 제공하여 교육적 가치가 높다. Script B는 정보의 깊이와 맥락 적절성에서 다소 부족하여 전반적인 정보 전달력이 떨어진다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/138/0002200038",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:32.836775",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 5,
+        "factual_accuracy": 5,
+        "contextual_relevance": 5,
+        "educational_value": 5,
+        "overall_informativeness": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B provides a more comprehensive and detailed explanation of the situation, including specific numbers and actions taken by SK Telecom. It accurately reflects the context and background of the news article, offering a higher educational value and overall informativeness compared to Script A."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/011/0004486003",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:35.725727",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 A는 뉴스 기사의 주요 정보를 더 체계적으로 전달하며, 사실 정확성 면에서도 더 높은 점수를 받았습니다. 또한, 교육적 가치와 전반적 정보성 측면에서도 스크립트 A가 더 우수합니다. 스크립트 B는 감정적 반응을 포함하여 흥미를 유발하지만, 정보의 깊이와 정확성 면에서 다소 부족합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/003/0013247123",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:39.202694",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 뉴스 기사의 정보를 더 풍부하게 포함하고 있으며, 사실의 정확성과 맥락 적절성 면에서 더 우수합니다. 또한, 교육적 가치와 전반적인 정보성에서도 더 높은 점수를 받았습니다. 스크립트 A는 정보가 다소 간략하고 맥락이 부족한 반면, 스크립트 B는 독자가 상황을 더 잘 이해할 수 있도록 돕습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/011/0004486003",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:42.673247",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 메타의 베헤모스 모델의 성능 문제와 관련된 정보가 더 풍부하고 정확하게 전달되었으며, 다른 AI 회사들의 상황도 잘 설명하고 있어 교육적 가치가 높습니다. 또한, 맥락적으로도 뉴스 기사의 내용을 더 잘 반영하고 있습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001077840",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:45.561727",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 5,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 맥락 적절성에서 더 높은 점수를 받았습니다. 두 스크립트 모두 정보가 풍부하고 사실적으로 정확하며 교육적 가치가 높습니다. 그러나 Script B는 논란의 이유를 명확히 설명하여 맥락을 더 잘 반영하고 있습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001081288",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:48.613275",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B는 오라클과 AMD의 협력에 대한 전반적인 맥락을 더 잘 반영하고 있으며, MI355X GPU의 강점과 OCI의 변화에 대한 정보를 더 명확하게 전달하고 있습니다. Script A는 정보가 다소 단편적이며, 맥락과 관련된 정보가 부족합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002379262",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:51.098572",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 0,
+        "factual_accuracy": 0,
+        "contextual_relevance": 0,
+        "educational_value": 0,
+        "overall_informativeness": 0
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 A는 제공되지 않았으므로 평가할 수 없습니다. 스크립트 B는 뉴스 기사의 주요 내용을 간략하게 다루고 있으며, 메타의 역할과 메모리 표준의 필요성을 언급하여 정보의 정확성과 맥락 적절성을 잘 반영하고 있습니다. 그러나 정보의 깊이나 교육적 가치는 다소 제한적입니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002377228",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:54.901642",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 0,
+        "factual_accuracy": 0,
+        "contextual_relevance": 0,
+        "educational_value": 0,
+        "overall_informativeness": 0
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 뉴스 기사의 주요 정보를 잘 반영하고 있으며, 하정우 수석의 배경과 역할에 대한 정보를 제공하고 있다. 정보의 정확성과 맥락 적절성도 높아 교육적 가치가 있다. 스크립트 A는 제공되지 않아 평가할 수 없다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001085488",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:43:57.070959",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 합성생물학의 기적이라는 표현을 사용하여 인공 바이러스의 합성 과정을 더 구체적으로 설명하고 있으며, 새로운 진단키트 검증의 중요성을 강조하고 있다. 또한, 변종 바이러스에 대한 대응 가능성을 명확히 언급하여 정보의 풍부함과 교육적 가치를 높였다. 반면, 스크립트 A는 정보 전달이 다소 간략하고 맥락 설명이 부족하여 전반적인 정보성이 떨어진다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001087172",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:00.510919",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 5,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script A는 뉴스 기사의 주요 정보를 더 풍부하게 포함하고 있으며, 맥락과 관련된 정보도 잘 반영하고 있습니다. Script B는 정보의 깊이와 맥락 적절성에서 다소 부족하여 전반적인 정보 전달력이 떨어집니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/032/0003376280",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:02.891782",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 캐논의 전략과 신제품에 대한 정보를 더 구체적이고 정확하게 전달하며, 경쟁사와의 비교를 통해 맥락을 잘 반영하고 있다. 또한, 교육적 가치와 정보 전달력이 더 높아 전반적으로 유익하다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/020/0003635222",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:07.761427",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 2,
+        "factual_accuracy": 2,
+        "contextual_relevance": 1,
+        "educational_value": 2,
+        "overall_informativeness": 2
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 5,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script A는 뉴스 기사의 주요 내용을 잘 반영하고 있으며, Qwen 모델과 가짜 보상에 대한 정보를 정확하게 전달하고 있다. 반면, Script B는 기사와 관련 없는 내용으로 구성되어 있어 정보의 정확성과 맥락 적절성이 떨어진다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002376976?sid=105",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:10.223726",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 1,
+        "factual_accuracy": 1,
+        "contextual_relevance": 1,
+        "educational_value": 1,
+        "overall_informativeness": 1
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 뉴스 기사의 핵심 내용을 대화 형식으로 잘 전달하고 있으며, 전자 폐기물 문제 해결과 관련된 정보도 포함하고 있다. 반면, 스크립트 A는 제공되지 않았으므로 평가할 수 없다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001085477",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:12.502204",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 5,
+        "overall_informativeness": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script A는 네스페셀의 특성과 작용 기전에 대한 구체적인 설명을 제공하여 정보의 풍부함과 교육적 가치를 높였습니다. 또한, 임상 2상 결과의 의미와 향후 절차에 대한 명확한 설명으로 전반적인 정보 전달력이 뛰어납니다. 반면, Script B는 정보의 깊이와 정확성에서 다소 부족하여 Script A보다 덜 유익합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/015/0005132816",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:15.508769",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 5,
+        "factual_accuracy": 5,
+        "contextual_relevance": 5,
+        "educational_value": 5,
+        "overall_informativeness": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 A는 뉴스 기사의 다양한 정보를 풍부하게 포함하고 있으며, 사실의 정확성과 맥락 적절성도 높다. 교육적 가치와 전반적인 정보성 면에서도 더 높은 점수를 받을 수 있다. 반면, 스크립트 B는 정보가 다소 간략하고 덜 구체적이어서 A에 비해 점수가 낮다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/015/0005139248",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:18.283121",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 5,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 스카이라이더 X6의 기술적 세부사항과 경제성에 대한 정보를 더 풍부하게 제공하며, 법적 문제와 같은 맥락적 요소도 잘 반영하고 있습니다. 또한, 충전 속도와 운영 비용에 대한 구체적인 정보가 포함되어 있어 교육적 가치가 높습니다. 반면, Script A는 규제와 면허 문제에 대한 언급은 있지만, 기술적 세부사항이 부족하고 정보의 깊이가 상대적으로 얕습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002378281",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:21.957085",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 네이버의 미국 시장 진출 배경과 '네이버 벤처스' 설립의 목적을 더 명확하게 설명하고 있으며, 포시마크 인수와 같은 구체적인 사례를 언급하여 정보의 풍부함과 교육적 가치를 높였습니다. 또한, 사실의 정확성과 맥락 적절성 면에서도 더 잘 반영되어 있습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/277/0005593942",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:24.779533",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B provides a more comprehensive and accurate representation of the information from the news article. It includes more details about the application and efficiency improvements of the solar cell, making it more informative and educational. Script A, while accurate, lacks some of the depth and context provided in Script B."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/658/0000110345",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:29.505899",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "tie",
+        "reasoning": "두 스크립트 모두 뉴스 기사의 핵심 정보를 잘 전달하고 있으며, 정보의 정확성과 맥락 적절성에서 큰 차이가 없다. 두 스크립트 모두 교육적 가치와 전반적인 정보성에서 비슷한 수준을 보여주고 있다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/030/0003317666",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:31.578761",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 보안 인력 문제의 근본 원인과 해결책에 대한 논의가 더 명확하고 구체적이다. 정보의 풍부함과 맥락 적절성 면에서 스크립트 A보다 더 잘 반영되어 있으며, 교육적 가치와 전반적 정보성에서도 더 높은 점수를 받았다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/029/0002963307",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:36.448731",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B provides a more comprehensive understanding of the new antiviral approach by highlighting the focus on less mutation-prone areas and the mechanism of blocking protein interactions. It also better reflects the context of the research and its potential implications, offering a higher educational value and overall informativeness compared to Script A."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001087168",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:38.773339",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 A는 오픈AI와 메타의 전략적 차이를 명확히 설명하고 있으며, 정보의 정확성과 풍부함에서 더 높은 점수를 받았습니다. 또한, 사용자의 질문에 대한 답변이 더 교육적이고 맥락에 잘 맞습니다. 반면, 스크립트 B는 정보의 깊이와 정확성에서 다소 부족하며, 대화의 맥락이 덜 명확합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/015/0005132938",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:41.769434",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 5,
+        "factual_accuracy": 5,
+        "contextual_relevance": 5,
+        "educational_value": 5,
+        "overall_informativeness": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 뉴스 기사의 다양한 정보를 더 풍부하게 포함하고 있으며, 특히 B200 모델의 도입 준비에 대한 구체적인 설명이 잘 되어 있어 교육적 가치가 높습니다. 또한, 맥락 적절성과 전반적 정보성 측면에서도 더 우수합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001077733",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:44.009933",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "tie",
+        "reasoning": "두 스크립트 모두 뉴스 기사의 핵심 정보를 간단히 전달하고 있으며, 정보의 정확성과 맥락 적절성에서 큰 차이가 없다. 두 스크립트 모두 기술의 발전과 중국과 미국의 경쟁에 대한 언급을 포함하고 있어 정보 전달력과 교육적 가치가 비슷하다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/422/0000749733",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:47.157127",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 5,
+        "factual_accuracy": 5,
+        "contextual_relevance": 5,
+        "educational_value": 5,
+        "overall_informativeness": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 디지털 휴먼의 자율성, 감정 인식, 윤리적 가이드라인 등 다양한 측면을 포괄적으로 다루고 있어 정보의 풍부함과 교육적 가치가 높다. 또한, 기사에서 언급된 주요 발전 방향과 윤리적 문제를 잘 반영하고 있어 맥락 적절성도 뛰어나다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/hotissue/article/033/0000048707?type=series&cid=2002178",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:49.764468",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 5,
+        "factual_accuracy": 5,
+        "contextual_relevance": 5,
+        "educational_value": 5,
+        "overall_informativeness": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 박쥐 오가노이드의 정의, 연구 대상 선택 이유, 2차원 플랫폼의 차이점 등 다양한 정보를 포함하고 있어 정보 풍부함과 교육적 가치가 높다. 또한, 뉴스 기사의 맥락을 잘 반영하고 있어 전반적으로 더 유익하다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002374508",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:52.205251",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B provides a more comprehensive overview of Baek Kyung-hoon's contributions to AI technology and policy. It includes more detailed information about his academic background and his role in policy-making, making it more informative and educational. Script A, while accurate, lacks some of the depth and context provided in Script B."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/293/0000068923",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:54.764064",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 1,
+        "factual_accuracy": 1,
+        "contextual_relevance": 1,
+        "educational_value": 1,
+        "overall_informativeness": 1
+      },
+      "rag_modified_scores": {
+        "information_richness": 1,
+        "factual_accuracy": 1,
+        "contextual_relevance": 1,
+        "educational_value": 1,
+        "overall_informativeness": 1
+      },
+      "comparison": {
+        "winner": "tie",
+        "reasoning": "두 스크립트 모두 뉴스 기사의 본문이 제공되지 않아 평가할 수 있는 정보가 전혀 없었습니다. 따라서 모든 평가 기준에서 최저 점수를 부여하였으며, 두 스크립트 간의 차이가 없으므로 무승부로 판단하였습니다."
+      },
+      "metadata": {
+        "url": "https://www.economist.com/science-and-technology/2025/06/24/scientists-have-created-healthy-fertile-mice-with-two-fathers",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:56.912880",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 0,
+        "factual_accuracy": 0,
+        "contextual_relevance": 0,
+        "educational_value": 0,
+        "overall_informativeness": 0
+      },
+      "rag_modified_scores": {
+        "information_richness": 1,
+        "factual_accuracy": 1,
+        "contextual_relevance": 1,
+        "educational_value": 1,
+        "overall_informativeness": 1
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 A는 카페인 수혈에 대한 대화를 포함하고 있지만, 정보의 정확성이나 맥락이 부족하고 교육적 가치가 낮습니다. 스크립트 B는 제공되지 않았으므로 평가할 수 없습니다. 따라서 스크립트 A가 상대적으로 더 나은 것으로 간주됩니다."
+      },
+      "metadata": {
+        "url": "https://www.sciencetimes.co.kr/nscvrg/view/menu/251?searchCategory=223&nscvrgSn=260495",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:44:59.326337",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 5,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script A는 정보의 풍부함과 맥락 적절성에서 더 높은 점수를 받았습니다. Script A는 SK하이닉스의 성과와 미래 계획에 대한 정보를 명확하게 전달하며, 교육적 가치와 전반적 정보성에서도 더 높은 평가를 받았습니다. Script B는 다소 캐주얼한 표현이 많아 정보 전달력이 떨어졌습니다."
+      },
+      "metadata": {
+        "url": "https://naver.me/FdoN1ioQ",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:45:02.881948",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "tie",
+        "reasoning": "두 스크립트 모두 정보의 풍부함과 맥락 적절성에서 비슷한 수준을 보여주며, 사실 정확성과 교육적 가치에서도 큰 차이가 없다. 전반적인 정보 전달력에서도 유사한 수준을 유지하고 있어 우열을 가리기 어렵다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/030/0003321776",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:45:05.848312",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 신약 개발에 대한 구체적인 변화를 설명하고, 광학 이성질체 분석의 중요성을 명확히 전달하며, KAIST 기술의 장점을 잘 설명하여 정보의 풍부함과 교육적 가치를 높였다. 반면 스크립트 A는 기술의 혁신성을 강조하지만, 구체적인 정보 전달이 부족하여 전반적인 정보성에서 뒤처진다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001085675",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:45:11.367176",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B provides a more detailed and accurate representation of the information from the news article. It covers the technical aspects of the hinge design and the differences between Samsung and Huawei's foldable phones, which enhances its educational value and overall informativeness. Script A, while engaging, lacks some depth in terms of technical details and contextual relevance."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002380899",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:45:14.737741",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 5,
+        "factual_accuracy": 5,
+        "contextual_relevance": 5,
+        "educational_value": 5,
+        "overall_informativeness": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 이황화몰리브덴의 역할과 장점, 그리고 상용화의 이점에 대해 더 구체적이고 명확하게 설명하고 있어 정보의 풍부함과 교육적 가치가 더 높다. 또한, 스크립트 B는 뉴스 기사의 맥락을 더 잘 반영하고 있어 전반적인 정보 전달력이 뛰어나다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/016/0002479264",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:45:17.197146",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 양자컴퓨터의 오류 증가 이유와 양자 연결의 중요성을 명확하게 설명하며, 한국의 기술 선점의 중요성을 잘 전달하고 있습니다. 정보의 정확성과 교육적 가치가 더 높아 전반적으로 더 유익합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/hotissue/article/011/0004486411?type=series&cid=2002925",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:45:29.481685",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B provides a more comprehensive understanding of the new antiviral strategy by emphasizing the significance of targeting the conserved binding site, which is crucial for its effectiveness against various mutations. It also better reflects the context of the research and its potential implications, making it more informative and educational."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001087168",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:45:32.301440",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "tie",
+        "reasoning": "두 스크립트 모두 뉴스 기사의 주요 정보를 잘 전달하고 있으며, 정보의 정확성과 맥락 적절성에서 큰 차이가 없다. 교육적 가치와 전반적 정보성에서도 비슷한 수준을 유지하고 있어 우열을 가리기 어렵다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/001/0015489193",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:45:34.599269",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "tie",
+        "reasoning": "두 스크립트 모두 정보의 풍부함과 맥락 적절성에서 비슷한 수준을 보여주며, 사실 정확성과 교육적 가치에서도 큰 차이가 없다. 전반적인 정보성에서도 유사한 수준을 유지하고 있어 우열을 가리기 어렵다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001085504",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:46:00.235443",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 4,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 스텔란티스와 LG에너지솔루션의 관련 정보까지 포함하여 정보의 풍부함과 맥락 적절성이 더 높다. 또한, LFP 배터리의 장점과 시장 상황에 대한 설명이 더 명확하여 교육적 가치와 전반적 정보성이 더 뛰어나다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/hotissue/article/138/0002197697?type=series&cid=1089789",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:46:04.227586",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 5,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B는 아르시아 몬스의 특징, 오디세이 궤도선의 임무 지속성 등 다양한 정보를 포함하고 있어 정보 풍부함과 맥락 적절성에서 높은 점수를 받았습니다. 또한, 교육적 가치와 전반적 정보성에서도 더 높은 점수를 받아 전반적으로 더 유익한 대화로 평가되었습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002378259",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:46:07.813787",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "rag_modified_scores": {
+        "information_richness": 0,
+        "factual_accuracy": 0,
+        "contextual_relevance": 0,
+        "educational_value": 0,
+        "overall_informativeness": 0
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 LG에너지솔루션의 46시리즈 배터리 공급 계약에 대한 주요 정보를 잘 전달하고 있으며, 배터리의 특징과 계약의 중요성을 명확히 설명하고 있다. 정보의 정확성과 맥락 적절성도 높아 교육적 가치가 있다. 스크립트 A는 제공되지 않아 평가할 수 없다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/hotissue/article/138/0002198584?type=series&cid=1089789",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:46:11.121780",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 4,
+        "factual_accuracy": 5,
+        "contextual_relevance": 4,
+        "educational_value": 4,
+        "overall_informativeness": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B provides a more comprehensive explanation of the MITRE ATT&CK framework and the significance of the ATP test. It also accurately describes the importance of blocking ransomware, enhancing the educational value and overall informativeness. Script A, while accurate, lacks depth in explaining the context and significance of the information."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002374667",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:46:13.604003",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "rag_modified_scores": {
+        "information_richness": 3,
+        "factual_accuracy": 4,
+        "contextual_relevance": 3,
+        "educational_value": 3,
+        "overall_informativeness": 3
+      },
+      "comparison": {
+        "winner": "tie",
+        "reasoning": "두 스크립트 모두 정보의 풍부함과 맥락 적절성에서 비슷한 수준을 보여주며, 사실 정확성과 교육적 가치에서도 큰 차이가 없다. 두 스크립트 모두 대화의 유익성과 정보 전달력에서 비슷한 점수를 받았다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/030/0003321698",
+        "id": "",
+        "evaluation_timestamp": "2025-07-13T15:46:16.256583",
+        "original_was_script_a": true
+      }
+    }
+  ]
+}

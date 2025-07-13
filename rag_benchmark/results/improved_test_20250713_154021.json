@@ -1,0 +1,11 @@
+{
+  "benchmark_info": {
+    "total_items": 10,
+    "successful_evaluations": 0,
+    "success_rate": 0.0,
+    "timestamp": "2025-07-13T15:40:21.524422",
+    "input_file": "rag_benchmark/data/1.json"
+  },
+  "statistics": {},
+  "detailed_results": []
+}

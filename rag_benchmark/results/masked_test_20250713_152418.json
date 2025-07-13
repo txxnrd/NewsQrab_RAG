@@ -1,0 +1,299 @@
+{
+  "benchmark_info": {
+    "total_items": 10,
+    "successful_evaluations": 10,
+    "success_rate": 100.0,
+    "timestamp": "2025-07-13T15:24:49.803985",
+    "input_file": "rag_benchmark/data/1.json"
+  },
+  "statistics": {
+    "original_average_scores": {
+      "information_accuracy": 4.1,
+      "conversational_flow": 4.1,
+      "character_consistency": 4.1,
+      "content_completeness": 3.4,
+      "overall_quality": 4.0
+    },
+    "rag_modified_average_scores": {
+      "information_accuracy": 4.2,
+      "conversational_flow": 4.0,
+      "character_consistency": 3.9,
+      "content_completeness": 3.4,
+      "overall_quality": 4.0
+    },
+    "winner_statistics": {
+      "original_wins": 5,
+      "rag_modified_wins": 5,
+      "ties": 0
+    },
+    "rag_improvement": {
+      "information_accuracy": 0.10000000000000053,
+      "conversational_flow": -0.09999999999999964,
+      "character_consistency": -0.19999999999999973,
+      "content_completeness": 0.0,
+      "overall_quality": 0.0
+    }
+  },
+  "detailed_results": [
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 스텔란티스와 LG에너지솔루션의 관련 내용을 포함하여 정보의 정확성과 완전성이 더 높습니다. 또한 대화의 흐름이 자연스럽고 일관성이 있으며, 전반적인 품질이 더 뛰어납니다. 스크립트 A는 정보의 정확성과 완전성 면에서 약간 부족하며, 스텔란티스와 관련된 내용을 다루지 않았습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/hotissue/article/138/0002197697?type=series&cid=1089789",
+        "id": "6839bc34fc3c457cce98fe72",
+        "evaluation_timestamp": "2025-07-13T15:24:22.608801",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 3,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 정보의 정확성과 내용의 완전성에서 더 높은 점수를 받았습니다. 뉴스 기사의 핵심 내용을 더 잘 반영하고 있으며, 대화의 흐름도 자연스럽습니다. Script A는 캐릭터의 일관성은 유지했으나, 정보의 정확성과 내용의 완전성에서 다소 부족했습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002378259",
+        "id": "684fa03545eff7375cb73b04",
+        "evaluation_timestamp": "2025-07-13T15:24:26.842937",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 정보의 정확성과 대화의 자연스러움에서 더 높은 점수를 받았습니다. 특히, 중국 시장의 외산 진입 장벽을 언급하며 LG에너지솔루션의 기술력이 인정받았다는 점을 명확히 전달했습니다. 또한, 대화의 흐름이 자연스럽고 일관성이 있어 전반적인 품질이 더 높았습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/hotissue/article/138/0002198584?type=series&cid=1089789",
+        "id": "684f81acd6b5a864282ffc2a",
+        "evaluation_timestamp": "2025-07-13T15:24:29.428140",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B provides a more detailed and accurate explanation of the MITRE ATT&CK framework and the significance of the ATP test. The conversational flow is smoother, and the characters maintain consistent personalities throughout the dialogue. Script A, while accurate, lacks some depth in explaining the importance of the test and the framework, making Script B the superior choice."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/092/0002374667",
+        "id": "682957b698a61b24af6d0df7",
+        "evaluation_timestamp": "2025-07-13T15:24:32.232121",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 2,
+        "conversational_flow": 2,
+        "character_consistency": 3,
+        "content_completeness": 2,
+        "overall_quality": 2
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "스크립트 B는 뉴스 기사의 핵심 내용을 더 정확하게 반영하고 있으며, 대화의 흐름이 자연스럽고 일관성이 있다. 또한, 캐릭터의 말투와 성격이 일관되게 유지되며, 정보의 완전성 측면에서도 더 나은 점수를 받았다. 반면, 스크립트 A는 정보의 정확성과 완전성이 부족하고 대화의 흐름이 덜 자연스럽다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/030/0003321698",
+        "id": "684ede58d6b5a864282ffb43",
+        "evaluation_timestamp": "2025-07-13T15:24:36.489169",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B는 대화의 자연스러움과 캐릭터의 일관성에서 높은 점수를 받았습니다. 두 스크립트 모두 정보의 정확성과 내용의 완전성에서 비슷한 수준을 보였으나, Script B는 좀 더 생동감 있고 자연스러운 대화를 제공하여 전반적인 품질에서 우위를 점했습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/016/0002479264",
+        "id": "683bf865fc3c457cce98ff6c",
+        "evaluation_timestamp": "2025-07-13T15:24:38.782788",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "스크립트 B는 정보의 정확성과 대화의 자연스러움에서 더 높은 점수를 받았습니다. 특히, 양자 연결의 개념과 한국의 기술 선점의 중요성을 명확하게 설명하고 있어 정보의 정확성과 내용 완전성에서 우수합니다. 스크립트 A도 잘 작성되었지만, 정보의 깊이와 완전성에서 B에 비해 약간 부족합니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/hotissue/article/011/0004486411?type=series&cid=2002925",
+        "id": "6827f81f98a61b24af6d0dcc",
+        "evaluation_timestamp": "2025-07-13T15:24:41.876801",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 5,
+        "conversational_flow": 5,
+        "character_consistency": 5,
+        "content_completeness": 5,
+        "overall_quality": 5
+      },
+      "comparison": {
+        "winner": "rag_modified",
+        "reasoning": "Script B는 정보의 정확성과 대화의 자연스러움에서 더 높은 점수를 받았습니다. Script B는 뉴스 기사의 핵심 내용을 더 명확하게 전달하며, 대화의 흐름이 자연스럽고 캐릭터의 일관성도 잘 유지되었습니다. Script A도 전반적으로 좋은 품질을 보였으나, 정보 전달의 명확성에서 약간 부족한 부분이 있었습니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001087168",
+        "id": "6858e46445eff7375cb73d22",
+        "evaluation_timestamp": "2025-07-13T15:24:44.395837",
+        "original_was_script_a": true
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 3,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 3,
+        "character_consistency": 3,
+        "content_completeness": 3,
+        "overall_quality": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script B has a slightly better conversational flow and character consistency compared to Script A. Both scripts accurately reflect the information from the news article, but Script B presents it in a more engaging and coherent manner."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/366/0001085504",
+        "id": "684ee364d6b5a864282ffb56",
+        "evaluation_timestamp": "2025-07-13T15:24:46.324398",
+        "original_was_script_a": false
+      }
+    },
+    {
+      "original_scores": {
+        "information_accuracy": 4,
+        "conversational_flow": 4,
+        "character_consistency": 4,
+        "content_completeness": 4,
+        "overall_quality": 4
+      },
+      "rag_modified_scores": {
+        "information_accuracy": 3,
+        "conversational_flow": 3,
+        "character_consistency": 3,
+        "content_completeness": 2,
+        "overall_quality": 3
+      },
+      "comparison": {
+        "winner": "original",
+        "reasoning": "Script A는 뉴스 기사의 핵심 내용을 더 잘 반영하고 있으며, 대화의 흐름이 자연스럽고 캐릭터의 일관성도 유지되고 있습니다. 반면 Script B는 정보의 정확성과 내용의 완전성에서 부족함이 있으며, 대화의 흐름도 다소 일관성이 떨어집니다."
+      },
+      "metadata": {
+        "url": "https://n.news.naver.com/mnews/article/422/0000749733",
+        "id": "684eda01d6b5a864282ffad0",
+        "evaluation_timestamp": "2025-07-13T15:24:49.803926",
+        "original_was_script_a": true
+      }
+    }
+  ]
+}
